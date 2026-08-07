@@ -1,0 +1,14 @@
+{
+  "name": "awesome-free-highscore-ai-learning-resources",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Awesome free highscore AI learning resources.",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "check": "node scripts/generate.mjs --check",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
