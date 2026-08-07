@@ -25,7 +25,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 ## Official Vendors
 
 <a id="official-vendors-anthropic"></a>
-### ![Anthropic logo](assets/provider-logos/anthropic.png) Anthropic
+### <img src="assets/provider-logos/anthropic.png" alt="Anthropic logo" width="28" height="28"> Anthropic
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -53,7 +53,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Teaching AI Fluency](https://anthropic.skilljar.com/teaching-ai-fluency) | Intermediate | Self-paced; duration not stated | 2025-07 | Prompting & Structured Interaction, Responsible AI, Safety & Guardrails, Evaluation, Reliability & Assurance |
 
 <a id="official-vendors-hugging-face"></a>
-### ![Hugging Face logo](assets/provider-logos/hugging-face.png) Hugging Face
+### <img src="assets/provider-logos/hugging-face.png" alt="Hugging Face logo" width="28" height="28"> Hugging Face
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -66,7 +66,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Hugging Face Model Context Protocol (MCP) Course](https://huggingface.co/learn/mcp-course/unit0/introduction) | Beginner | Multi-unit; self-paced | 2025 | Tools, APIs & Agent Protocols, Agentic Workflows & Multi-Agent Systems |
 
 <a id="official-vendors-microsoft"></a>
-### ![Microsoft logo](assets/provider-logos/microsoft.png) Microsoft
+### <img src="assets/provider-logos/microsoft.png" alt="Microsoft logo" width="28" height="28"> Microsoft
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) | Beginner | 12 weeks; 26 lessons | 2021; continuously updated | Machine Learning & Mathematical Foundations |
 
 <a id="official-vendors-ibm"></a>
-### ![IBM logo](assets/provider-logos/ibm.png) IBM
+### <img src="assets/provider-logos/ibm.png" alt="IBM logo" width="28" height="28"> IBM
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -87,7 +87,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://skillsbuild.org/learning-catalog?topic=ai) | Intermediate | 4 hours | Current catalog | RAG, Embeddings & Knowledge Systems, Model Evaluation & Quality |
 
 <a id="official-vendors-langchain"></a>
-### ![LangChain logo](assets/provider-logos/langchain.png) LangChain
+### <img src="assets/provider-logos/langchain.png" alt="LangChain logo" width="28" height="28"> LangChain
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -97,7 +97,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Project: Ambient Agents with LangGraph](https://academy.langchain.com/courses/ambient-agents) | Intermediate | 2.5 hours of video | 2025-01 | Agentic Workflows & Multi-Agent Systems, Model Evaluation & Quality, Context, Memory & State |
 
 <a id="official-vendors-openai"></a>
-### ![OpenAI logo](assets/provider-logos/openai.png) OpenAI
+### <img src="assets/provider-logos/openai.png" alt="OpenAI logo" width="28" height="28"> OpenAI
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -107,7 +107,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) | Intermediate | Unknown | 2018-11 | Machine Learning & Mathematical Foundations, Deep Learning |
 
 <a id="official-vendors-databricks"></a>
-### ![Databricks logo](assets/provider-logos/databricks.png) Databricks
+### <img src="assets/provider-logos/databricks.png" alt="Databricks logo" width="28" height="28"> Databricks
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -116,7 +116,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Large Language Models: Foundation Models from the Ground Up](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) | Intermediate | Multi-week course | 2023-05 | Model Architectures & Generative Models, Fine-Tuning, Alignment & Post-Training |
 
 <a id="official-vendors-aws"></a>
-### ![AWS logo](assets/provider-logos/aws.png) AWS
+### <img src="assets/provider-logos/aws.png" alt="AWS logo" width="28" height="28"> AWS
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -124,7 +124,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Machine Learning Learning Plan](https://explore.skillbuilder.aws/learn/learning_plan/view/28/machine-learning-learning-plan) | Beginner | Unknown | Continuously updated | MLOps & Model Lifecycle Management, Machine Learning & Mathematical Foundations |
 
 <a id="official-vendors-google"></a>
-### ![Google logo](assets/provider-logos/google.png) Google
+### <img src="assets/provider-logos/google.png" alt="Google logo" width="28" height="28"> Google
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -132,7 +132,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Managing ML Projects](https://developers.google.com/machine-learning/managing-ml-projects) | Intermediate | Unknown | 2025-08 | MLOps & Model Lifecycle Management, Enterprise AI Architecture & Operating Model, Cost, Vendor & Lifecycle Governance |
 
 <a id="official-vendors-nvidia"></a>
-### ![NVIDIA logo](assets/provider-logos/nvidia.png) NVIDIA
+### <img src="assets/provider-logos/nvidia.png" alt="NVIDIA logo" width="28" height="28"> NVIDIA
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -147,7 +147,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 ## Official Conference Channel
 
 <a id="official-conference-channel-ai-engineer"></a>
-### ![AI Engineer logo](assets/provider-logos/ai-engineer.png) AI Engineer
+### <img src="assets/provider-logos/ai-engineer.png" alt="AI Engineer logo" width="28" height="28"> AI Engineer
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -156,7 +156,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [AI Engineer World's Fair 2026 Recordings](https://www.ai.engineer/worldsfair/2026) | Intermediate | Multi-track conference archive | 2026-07 | Agentic Workflows & Multi-Agent Systems, AI Coding & Software Engineering, AI Application Architecture & Integration |
 
 <a id="official-conference-channel-code-with-claude"></a>
-### ![Code with Claude logo](assets/provider-logos/anthropic.png) Code with Claude
+### <img src="assets/provider-logos/anthropic.png" alt="Code with Claude logo" width="28" height="28"> Code with Claude
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -164,7 +164,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Code with Claude San Francisco 2026 Recordings](https://claude.com/code-with-claude/san-francisco) | Intermediate | 8 recorded sessions | 2026-05 | AI Coding & Software Engineering, Agentic Workflows & Multi-Agent Systems, Context, Memory & State |
 
 <a id="official-conference-channel-nvidia-gtc"></a>
-### ![NVIDIA GTC logo](assets/provider-logos/nvidia.png) NVIDIA GTC
+### <img src="assets/provider-logos/nvidia.png" alt="NVIDIA GTC logo" width="28" height="28"> NVIDIA GTC
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -172,56 +172,56 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [NVIDIA GTC 2026 Sessions On Demand](https://www.nvidia.com/gtc/) | Intermediate | Large multi-track on-demand archive | 2026-03 | AI Servers, GPUs & Accelerators, AI Cluster Operations, Observability & Reliability, Model Serving & Inference Optimization |
 
 <a id="official-conference-channel-aws-re-invent"></a>
-### ![AWS re:Invent logo](assets/provider-logos/aws.png) AWS re:Invent
+### <img src="assets/provider-logos/aws.png" alt="AWS re:Invent logo" width="28" height="28"> AWS re:Invent
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [AWS re:Invent 2025 AI Sessions On Demand](https://aws.amazon.com/events/reinvent/on-demand/) | Intermediate | Multi-track on-demand archive | 2025 | Agentic Workflows & Multi-Agent Systems, AI Application Architecture & Integration, AI Cluster Operations, Observability & Reliability |
 
 <a id="official-conference-channel-data-ai-summit"></a>
-### ![Data + AI Summit logo](assets/provider-logos/databricks.png) Data + AI Summit
+### <img src="assets/provider-logos/databricks.png" alt="Data + AI Summit logo" width="28" height="28"> Data + AI Summit
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Data + AI Summit 2026 Sessions On Demand](https://www.databricks.com/dataaisummit/agenda) | Intermediate | 805 on-demand sessions | 2026-06 | AI Data Engineering, Agentic Workflows & Multi-Agent Systems, Enterprise AI Architecture & Operating Model |
 
 <a id="official-conference-channel-github-universe"></a>
-### ![GitHub Universe logo](assets/provider-logos/github.svg) GitHub Universe
+### <img src="assets/provider-logos/github.svg" alt="GitHub Universe logo" width="28" height="28"> GitHub Universe
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [GitHub Universe 2025 Session Playlist](https://www.youtube.com/playlist?list=PL0lo9MOBetEFKNlPHNouEmVeYeyoyGTXC) | Intermediate | 17-video official playlist | 2025 | AI Coding & Software Engineering, Agentic Workflows & Multi-Agent Systems, Tools, APIs & Agent Protocols |
 
 <a id="official-conference-channel-google-cloud-next"></a>
-### ![Google Cloud Next logo](assets/provider-logos/google.png) Google Cloud Next
+### <img src="assets/provider-logos/google.png" alt="Google Cloud Next logo" width="28" height="28"> Google Cloud Next
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Google Cloud Next 2025 AI Session Library](https://cloud.withgoogle.com/next/25/session-library) | Intermediate | 500+ searchable sessions | 2025 | Agentic Workflows & Multi-Agent Systems, MLOps & Model Lifecycle Management, AI Application Architecture & Integration |
 
 <a id="official-conference-channel-google-i-o"></a>
-### ![Google I/O logo](assets/provider-logos/google.png) Google I/O
+### <img src="assets/provider-logos/google.png" alt="Google I/O logo" width="28" height="28"> Google I/O
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Google I/O 2025 AI Session Library](https://io.google/2025/explore/) | Intermediate | Multi-session official library | 2025-05 | AI Application Architecture & Integration, Agentic Workflows & Multi-Agent Systems, AI Coding & Software Engineering |
 
 <a id="official-conference-channel-microsoft-build"></a>
-### ![Microsoft Build logo](assets/provider-logos/microsoft.png) Microsoft Build
+### <img src="assets/provider-logos/microsoft.png" alt="Microsoft Build logo" width="28" height="28"> Microsoft Build
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Microsoft Build 2026 AI Session Catalog](https://build.microsoft.com/sessions) | Intermediate | Hundreds of searchable sessions | 2026-06 | AI Coding & Software Engineering, Agentic Workflows & Multi-Agent Systems, MLOps & Model Lifecycle Management |
 
 <a id="official-conference-channel-openai-devday"></a>
-### ![OpenAI DevDay logo](assets/provider-logos/openai.png) OpenAI DevDay
+### <img src="assets/provider-logos/openai.png" alt="OpenAI DevDay logo" width="28" height="28"> OpenAI DevDay
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [OpenAI DevDay 2025 Session Collection](https://openai.com/devday/) | Intermediate | Multi-session video collection | 2025-10 | Agentic Workflows & Multi-Agent Systems, AI Coding & Software Engineering, Tools, APIs & Agent Protocols |
 
 <a id="official-conference-channel-pytorch-conference"></a>
-### ![PyTorch Conference logo](assets/provider-logos/pytorch.svg) PyTorch Conference
+### <img src="assets/provider-logos/pytorch.svg" alt="PyTorch Conference logo" width="28" height="28"> PyTorch Conference
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -235,7 +235,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 ## Established Educational Providers
 
 <a id="established-educational-providers-deeplearning-ai"></a>
-### ![DeepLearning.AI logo](assets/provider-logos/deeplearning-ai.png) DeepLearning.AI
+### <img src="assets/provider-logos/deeplearning-ai.png" alt="DeepLearning.AI logo" width="28" height="28"> DeepLearning.AI
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -364,7 +364,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Vibe Coding 101 with Replit](https://www.deeplearning.ai/courses/vibe-coding-101-with-replit) | Beginner | Unknown | 2025-03 | AI Coding & Software Engineering, AI Application Architecture & Integration |
 
 <a id="established-educational-providers-kaggle"></a>
-### ![Kaggle logo](assets/provider-logos/kaggle.png) Kaggle
+### <img src="assets/provider-logos/kaggle.png" alt="Kaggle logo" width="28" height="28"> Kaggle
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -377,7 +377,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Beginner | Approx. 3 hours | 2018-03 | Machine Learning & Mathematical Foundations |
 
 <a id="established-educational-providers-datatalks-club"></a>
-### ![DataTalks.Club logo](assets/provider-logos/datatalks-club.png) DataTalks.Club
+### <img src="assets/provider-logos/datatalks-club.png" alt="DataTalks.Club logo" width="28" height="28"> DataTalks.Club
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -385,14 +385,14 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Machine Learning Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR) | Intermediate | 19 weeks; self-paced option available | 2026-09 | Machine Learning & Mathematical Foundations, Deep Learning, MLOps & Model Lifecycle Management |
 
 <a id="established-educational-providers-fast-ai"></a>
-### ![fast.ai logo](assets/provider-logos/fast-ai.png) fast.ai
+### <img src="assets/provider-logos/fast-ai.png" alt="fast.ai logo" width="28" height="28"> fast.ai
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Practical Deep Learning for Coders](https://course.fast.ai/) | Intermediate | 9 lessons; about 13.5 hours | 2022 | Deep Learning, AI Coding & Software Engineering, Multimodal & Human-Agent Interaction |
 
 <a id="established-educational-providers-full-stack-deep-learning"></a>
-### ![Full Stack Deep Learning logo](assets/provider-logos/full-stack-deep-learning.png) Full Stack Deep Learning
+### <img src="assets/provider-logos/full-stack-deep-learning.png" alt="Full Stack Deep Learning logo" width="28" height="28"> Full Stack Deep Learning
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -406,7 +406,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 ## Major Universities
 
 <a id="major-universities-stanford-university"></a>
-### ![Stanford University logo](assets/provider-logos/stanford.png) Stanford University
+### <img src="assets/provider-logos/stanford.png" alt="Stanford University logo" width="28" height="28"> Stanford University
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -418,14 +418,14 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Stanford CS336: Language Modeling from Scratch](https://stanford-cs336.github.io/) | Intermediate | 10-week university course | Spring 2026 | Pre-Training & Distributed Training, Model Architectures & Generative Models, AI Servers, GPUs & Accelerators |
 
 <a id="major-universities-harvard-university"></a>
-### ![Harvard University logo](assets/provider-logos/harvard.png) Harvard University
+### <img src="assets/provider-logos/harvard.png" alt="Harvard University logo" width="28" height="28"> Harvard University
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) | Intermediate | 7 weeks | 2024 edition | Machine Learning & Mathematical Foundations, Deep Learning, AI Coding & Software Engineering |
 
 <a id="major-universities-mit"></a>
-### ![MIT logo](assets/provider-logos/mit.png) MIT
+### <img src="assets/provider-logos/mit.png" alt="MIT logo" width="28" height="28"> MIT
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -439,7 +439,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 ## Creator’s Official Website
 
 <a id="creators-official-website-hamel-husain"></a>
-### ![Hamel Husain logo](assets/provider-logos/hamel-husain.png) Hamel Husain
+### <img src="assets/provider-logos/hamel-husain.png" alt="Hamel Husain logo" width="28" height="28"> Hamel Husain
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -447,7 +447,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Mastering LLMs: An Open Course Led by Practitioners](https://hamel.dev/blog/posts/course/) | Intermediate | 40+ hours | 2024-07 | AI Application Architecture & Integration, RAG, Embeddings & Knowledge Systems, Model Evaluation & Quality |
 
 <a id="creators-official-website-made-with-ml"></a>
-### ![Made With ML logo](assets/provider-logos/made-with-ml.png) Made With ML
+### <img src="assets/provider-logos/made-with-ml.png" alt="Made With ML logo" width="28" height="28"> Made With ML
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -455,7 +455,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [Made With ML: MLOps Course](https://madewithml.com/courses/mlops/) | Intermediate | Self-paced; duration not stated | 2023–2025 | MLOps & Model Lifecycle Management, Model Serving & Inference Optimization, Model Evaluation & Quality |
 
 <a id="creators-official-website-statquest"></a>
-### ![StatQuest logo](assets/provider-logos/statquest.png) StatQuest
+### <img src="assets/provider-logos/statquest.png" alt="StatQuest logo" width="28" height="28"> StatQuest
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
@@ -463,28 +463,28 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 | [StatQuest Neural Networks, Deep Learning, and AI](https://statquest.org/video_index.html) | Beginner | Multi-part playlist; self-paced | Ongoing | Deep Learning, Model Architectures & Generative Models |
 
 <a id="creators-official-website-3blue1brown"></a>
-### ![3Blue1Brown logo](assets/provider-logos/3blue1brown.png) 3Blue1Brown
+### <img src="assets/provider-logos/3blue1brown.png" alt="3Blue1Brown logo" width="28" height="28"> 3Blue1Brown
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Neural Networks and Deep Learning](https://www.3blue1brown.com/topics/neural-networks) | Beginner | Approx. 3 hours | 2017–2024 | Deep Learning, Model Architectures & Generative Models |
 
 <a id="creators-official-website-andrej-karpathy"></a>
-### ![Andrej Karpathy logo](assets/provider-logos/andrej-karpathy.png) Andrej Karpathy
+### <img src="assets/provider-logos/andrej-karpathy.png" alt="Andrej Karpathy logo" width="28" height="28"> Andrej Karpathy
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) | Intermediate | Approx. 20 hours | 2022–2024 | Deep Learning, Model Architectures & Generative Models, AI Coding & Software Engineering |
 
 <a id="creators-official-website-daniel-bourke"></a>
-### ![Daniel Bourke logo](assets/provider-logos/daniel-bourke.png) Daniel Bourke
+### <img src="assets/provider-logos/daniel-bourke.png" alt="Daniel Bourke logo" width="28" height="28"> Daniel Bourke
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|
 | [Learn PyTorch for Deep Learning](https://www.learnpytorch.io/) | Beginner | 25+ hours | 2022–2025 | Deep Learning, AI Coding & Software Engineering, Multimodal & Human-Agent Interaction |
 
 <a id="creators-official-website-sebastian-raschka"></a>
-### ![Sebastian Raschka logo](assets/provider-logos/sebastian-raschka.png) Sebastian Raschka
+### <img src="assets/provider-logos/sebastian-raschka.png" alt="Sebastian Raschka logo" width="28" height="28"> Sebastian Raschka
 
 | Resource | Level | Duration | Release / Update | Focus |
 |---|---|---|---|---|

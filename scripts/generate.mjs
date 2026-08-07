@@ -98,7 +98,7 @@ for (const [category, categoryItems] of categories) {
     const logoFile = ["png", "svg"].map((extension) => `${logo}.${extension}`)
       .find((file) => availableLogos.has(file));
     const providerHeading = logoFile
-      ? `![${provider} logo](assets/provider-logos/${logoFile}) ${provider}`
+      ? `<img src="assets/provider-logos/${logoFile}" alt="${provider} logo" width="28" height="28"> ${provider}`
       : provider;
     lines.push(
       `<a id="${slug(`${category}-${provider}`)}"></a>`,

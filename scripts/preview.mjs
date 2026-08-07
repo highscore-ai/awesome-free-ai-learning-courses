@@ -15,6 +15,7 @@ const escapeHtml = (value) => value.replace(/[&<>"']/g, (character) => ({
 
 const renderInline = (value) => escapeHtml(value)
   .replace(/&lt;p align=&quot;(left|center|right)&quot;&gt;&lt;img src=&quot;([^&]+)&quot; alt=&quot;([^&]+)&quot; width=&quot;(\d+)&quot;&gt;&lt;\/p&gt;/g, '<p style="text-align:$1"><img src="$2" alt="$3" style="width:min($4px,100%);height:auto"></p>')
+  .replace(/&lt;img src=&quot;([^&]+)&quot; alt=&quot;([^&]*)&quot; width=&quot;(\d+)&quot; height=&quot;(\d+)&quot;&gt;/g, '<img src="$1" alt="$2" width="$3" height="$4" class="provider-logo">')
   .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="provider-logo">')
   .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
   .replace(/`([^`]+)`/g, "<code>$1</code>")
