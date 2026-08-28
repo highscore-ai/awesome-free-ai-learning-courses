@@ -9,6 +9,9 @@ Before planning or executing operational work, read:
 1. [`ops/HS_OPERATOR.md`](ops/HS_OPERATOR.md) — lifecycle, routing, gates, and source-of-truth rules.
 2. The relevant role definition in [`ops/roles/`](ops/roles/).
 3. The relevant procedure in [`ops/skills/`](ops/skills/).
+4. [`ops/NOTION_SCHEMA.md`](ops/NOTION_SCHEMA.md) when creating or interpreting HighScore operational state in Notion.
+
+For a complete daily operating cycle, use [`ops/skills/hs-daily/SKILL.md`](ops/skills/hs-daily/SKILL.md).
 
 ## Operating principles
 
@@ -28,6 +31,7 @@ Before planning or executing operational work, read:
 
 ## Common procedures
 
+- Full daily operator → [`ops/skills/hs-daily/SKILL.md`](ops/skills/hs-daily/SKILL.md)
 - Daily signal scan → [`ops/skills/product-scan/SKILL.md`](ops/skills/product-scan/SKILL.md)
 - Product decision review → [`ops/skills/product-review/SKILL.md`](ops/skills/product-review/SKILL.md)
 - Project/task reconciliation → [`ops/skills/project-sync/SKILL.md`](ops/skills/project-sync/SKILL.md)
