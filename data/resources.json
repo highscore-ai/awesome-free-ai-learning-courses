@@ -26,7 +26,9 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "openai-ai-foundations"
+    ],
     "Capability": "Prompting & Structured Interaction"
   },
   {
@@ -56,7 +58,9 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "openai-applied-ai-foundations"
+    ],
     "Capability": "Prompting & Structured Interaction"
   },
   {
@@ -86,7 +90,9 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "openai-agents-and-workflows"
+    ],
     "Capability": "Agentic Workflows & Multi-Agent Systems"
   },
   {
@@ -459,7 +465,10 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "hugging-face-agents-course-fundamentals",
+      "hugging-face-agents-course-completion"
+    ],
     "Capability": "Agentic Workflows & Multi-Agent Systems"
   },
   {
@@ -489,7 +498,10 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "hugging-face-deep-rl-course-completion",
+      "hugging-face-deep-rl-course-honors"
+    ],
     "Capability": "Machine Learning & Mathematical Foundations"
   },
   {
@@ -549,7 +561,10 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "hugging-face-context-course-fundamentals",
+      "hugging-face-context-course-engineering"
+    ],
     "Capability": "Context, Memory & State"
   },
   {
@@ -699,7 +714,9 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "langchain-certified-agent-engineer"
+    ],
     "Capability": "Agentic Workflows & Multi-Agent Systems"
   },
   {
@@ -7886,5 +7903,2316 @@
       "deeplearning-ai-data-engineering"
     ],
     "Capability": "AI Data Engineering"
+  },
+  {
+    "ID": "270",
+    "Slug": "microsoft-ai-concepts",
+    "Course Title": "AI concepts for developers and technology professionals",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/ai-concepts/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-901",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-fundamentals"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Everyone Uses AI"
+  },
+  {
+    "ID": "271",
+    "Slug": "microsoft-get-started-ai-apps-agents",
+    "Course Title": "Get started with AI applications and agents on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-901",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-fundamentals"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "272",
+    "Slug": "microsoft-develop-generative-ai-apps",
+    "Course Title": "Develop generative AI apps in Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-103",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-apps-agents-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "273",
+    "Slug": "microsoft-develop-ai-agents-azure",
+    "Course Title": "Develop AI agents on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-103",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-apps-agents-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "274",
+    "Slug": "microsoft-develop-language-solutions-azure-ai",
+    "Course Title": "Develop natural language solutions in Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-103",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-apps-agents-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Multimodal & Human-Agent Interaction"
+  },
+  {
+    "ID": "275",
+    "Slug": "microsoft-insight-visual-data",
+    "Course Title": "Extract insights from visual data on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/insight-visual-data/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-103",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-apps-agents-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Multimodal & Human-Agent Interaction"
+  },
+  {
+    "ID": "276",
+    "Slug": "microsoft-implement-container-app-hosting-azure",
+    "Course Title": "Implement container application hosting on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-container-app-hosting-azure/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "277",
+    "Slug": "microsoft-deploy-manage-apps-azure-container-apps",
+    "Course Title": "Deploy and manage apps on Azure Container Apps",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/deploy-manage-apps-azure-container-apps/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "278",
+    "Slug": "microsoft-deploy-monitor-apps-azure-kubernetes-service",
+    "Course Title": "Deploy and monitor applications on Azure Kubernetes Service",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "4.5",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Kubernetes, Slurm & Cluster Orchestration"
+  },
+  {
+    "ID": "279",
+    "Slug": "microsoft-develop-ai-solutions-azure-cosmos-db",
+    "Course Title": "Develop AI solutions with Azure Cosmos DB for NoSQL",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.7",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "RAG, Embeddings & Knowledge Systems"
+  },
+  {
+    "ID": "280",
+    "Slug": "microsoft-develop-ai-solutions-azure-database-postgresql",
+    "Course Title": "Develop AI solutions with Azure Database for PostgreSQL",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.7",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "RAG, Embeddings & Knowledge Systems"
+  },
+  {
+    "ID": "281",
+    "Slug": "microsoft-enhance-ai-solutions-azure-managed-redis",
+    "Course Title": "Enhance AI solutions with Azure Managed Redis",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.7",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "RAG, Embeddings & Knowledge Systems"
+  },
+  {
+    "ID": "282",
+    "Slug": "microsoft-integrate-backend-services-ai-solutions",
+    "Course Title": "Integrate backend services for AI solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/integrate-backend-services-ai-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "283",
+    "Slug": "microsoft-manage-app-secrets-configuration",
+    "Course Title": "Manage application secrets and configuration for AI solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/manage-app-secrets-configuration/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Identity, Access & Agent Authorization"
+  },
+  {
+    "ID": "284",
+    "Slug": "microsoft-observe-troubleshoot-apps",
+    "Course Title": "Observe and troubleshoot apps on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/observe-troubleshoot-apps/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-200",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-azure-ai-cloud-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Evaluation, Reliability & Assurance"
+  },
+  {
+    "ID": "285",
+    "Slug": "microsoft-build-first-machine-operations-workflow",
+    "Course Title": "Operationalize machine learning models (MLOps)",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/build-first-machine-operations-workflow/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-300",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-machine-learning-operations-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "MLOps & Model Lifecycle Management"
+  },
+  {
+    "ID": "286",
+    "Slug": "microsoft-operationalize-gen-ai-apps",
+    "Course Title": "Operationalize generative AI applications (GenAIOps)",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/operationalize-gen-ai-apps/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-300",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-machine-learning-operations-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "MLOps & Model Lifecycle Management"
+  },
+  {
+    "ID": "287",
+    "Slug": "microsoft-design-agent-conversations-responses-topics-copilot-studio",
+    "Course Title": "Design agent conversations and responses using topics in Microsoft Copilot Studio",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/design-agent-conversations-responses-topics-copilot-studio/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.8",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-620",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-agent-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Prompting & Structured Interaction"
+  },
+  {
+    "ID": "288",
+    "Slug": "microsoft-design-build-multi-agent-solutions-copilot-studio",
+    "Course Title": "Design and build multi-agent solutions in Microsoft Copilot Studio",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-620",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-agent-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "289",
+    "Slug": "microsoft-integrate-agents-enterprise-systems-copilot-studio",
+    "Course Title": "Integrate agents with enterprise systems in Microsoft Copilot Studio",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/integrate-agents-enterprise-systems-copilot-studio/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.5",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-620",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-agent-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Tools, APIs & Agent Protocols"
+  },
+  {
+    "ID": "290",
+    "Slug": "microsoft-architect-agentic-ai-business-solutions",
+    "Course Title": "Architect AI solutions for business productivity",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-100",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-agentic-ai-business-solutions-architect"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
+  },
+  {
+    "ID": "291",
+    "Slug": "microsoft-aaai-1-architect-production-grade-multi-agent-ai-solutions",
+    "Course Title": "Architect production-grade multi-agent AI solutions in Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-multi-agent-ai-solutions-expert"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "292",
+    "Slug": "microsoft-aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry",
+    "Course Title": "Build production-grade multi-agent capabilities with Microsoft Foundry",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-multi-agent-ai-solutions-expert"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "293",
+    "Slug": "microsoft-aaai-3-deploy-govern-agentic-ai-solutions-azure",
+    "Course Title": "Deploy and govern enterprise agentic AI solutions on Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-multi-agent-ai-solutions-expert"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
+  },
+  {
+    "ID": "294",
+    "Slug": "microsoft-aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure",
+    "Course Title": "Monitor, evaluate, and operate multi-agent AI solutions in Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AI-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Announced",
+    "Notes": "Official Microsoft Learn preparation path mapped in the canonical Notion certification map; source marks the related Microsoft course as Announced. Re-verify release status before publication.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-multi-agent-ai-solutions-expert"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Evaluation, Reliability & Assurance"
+  },
+  {
+    "ID": "295",
+    "Slug": "microsoft-transform-business-workflows-with-ai",
+    "Course Title": "Transform business workflows with generative AI",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/transform-business-workflows-with-ai/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-730",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-business-professional"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "General-Purpose Work Agents"
+  },
+  {
+    "ID": "296",
+    "Slug": "microsoft-explore-business-value-generative-ai-solutions",
+    "Course Title": "Explore the business value of generative AI solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-731",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-transformation-leader"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
+  },
+  {
+    "ID": "297",
+    "Slug": "microsoft-drive-value-generative-ai-solutions",
+    "Course Title": "Drive business value with AI solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/drive-value-generative-ai-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-731",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-transformation-leader"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
+  },
+  {
+    "ID": "298",
+    "Slug": "microsoft-transform-your-business-with-microsoft-ai",
+    "Course Title": "Transform your business with AI",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-731",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-ai-transformation-leader"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
+  },
+  {
+    "ID": "299",
+    "Slug": "microsoft-explore-microsoft-365-administration",
+    "Course Title": "Explore Microsoft 365 administration",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-administration/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-900",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-365-copilot-agent-administration-fundamentals"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Identity, Access & Agent Authorization"
+  },
+  {
+    "ID": "300",
+    "Slug": "microsoft-explore-microsoft-365-copilot-agent-administration",
+    "Course Title": "Explore Microsoft 365 Copilot and agent administration",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-agent-administration/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-900",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-365-copilot-agent-administration-fundamentals"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Identity, Access & Agent Authorization"
+  },
+  {
+    "ID": "301",
+    "Slug": "microsoft-design-model-solutions-power-platform",
+    "Course Title": "Get started with AI-first solutions in Microsoft Power Platform",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/design-model-solutions-power-platform/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-410",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-intelligent-applications-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "302",
+    "Slug": "microsoft-build-data-model-microsoft-dataverse",
+    "Course Title": "Build your data model with Microsoft Dataverse",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/build-data-model-microsoft-dataverse/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.9",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-410",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-intelligent-applications-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Data Engineering"
+  },
+  {
+    "ID": "303",
+    "Slug": "microsoft-build-apps-portals-power-apps",
+    "Course Title": "Build intelligent apps and portals with Microsoft Power Apps",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/build-apps-portals-power-apps/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-410",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-intelligent-applications-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "304",
+    "Slug": "microsoft-automate-business-processes-power-automate",
+    "Course Title": "Automate and extend your solutions with AI in Microsoft Power Automate",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/automate-business-processes-power-automate/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-410",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-intelligent-applications-builder-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "305",
+    "Slug": "microsoft-implement-dynamics-365-contact-center",
+    "Course Title": "Implement an AI-powered contact center with Dynamics 365",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-contact-center/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-250",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-contact-center-ai-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Multimodal & Human-Agent Interaction"
+  },
+  {
+    "ID": "306",
+    "Slug": "microsoft-configure-channels-dynamics-365-contact-center",
+    "Course Title": "Configure channels in Dynamics 365 Contact Center",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/configure-channels-dynamics-365-contact-center/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-250",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-contact-center-ai-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Multimodal & Human-Agent Interaction"
+  },
+  {
+    "ID": "307",
+    "Slug": "microsoft-empower-service-representatives-contact-center",
+    "Course Title": "Empower customer service representatives in Dynamics 365 Contact Center",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/empower-service-representatives-contact-center/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-250",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-contact-center-ai-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Multimodal & Human-Agent Interaction"
+  },
+  {
+    "ID": "308",
+    "Slug": "microsoft-monitor-optimize-dynamics-365-contact-center",
+    "Course Title": "Monitor and optimize Dynamics 365 Contact Center with AI-driven insights",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/monitor-optimize-dynamics-365-contact-center/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-250",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-contact-center-ai-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Evaluation, Reliability & Assurance"
+  },
+  {
+    "ID": "309",
+    "Slug": "microsoft-configure-sales-ai-selling",
+    "Course Title": "Configure Dynamics 365 Sales for AI-powered selling",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/configure-sales-ai-selling/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-210",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-sales-ai-consultant-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "General-Purpose Work Agents"
+  },
+  {
+    "ID": "310",
+    "Slug": "microsoft-generate-qualify-leads-ai-sales",
+    "Course Title": "Generate and qualify leads using AI in Dynamics 365 Sales",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/generate-qualify-leads-ai-sales/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-210",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-sales-ai-consultant-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "General-Purpose Work Agents"
+  },
+  {
+    "ID": "311",
+    "Slug": "microsoft-win-deals-ai-sales",
+    "Course Title": "Win deals with AI-powered sales execution in Dynamics 365 Sales",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/win-deals-ai-sales/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-210",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-sales-ai-consultant-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "General-Purpose Work Agents"
+  },
+  {
+    "ID": "312",
+    "Slug": "microsoft-extend-d365-sales-ai-platforms",
+    "Course Title": "Extend Dynamics 365 Sales with AI and Power Platform tools",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/extend-d365-sales-ai-platforms/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.5",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "AB-210",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-dynamics-365-sales-ai-consultant-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Tools, APIs & Agent Protocols"
+  },
+  {
+    "ID": "313",
+    "Slug": "microsoft-secure-access-resources-entra",
+    "Course Title": "Secure access to resources by using Microsoft Entra",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Identity, Access & Agent Authorization"
+  },
+  {
+    "ID": "314",
+    "Slug": "microsoft-configure-key-vault-security",
+    "Course Title": "Secure Azure Key Vault with defense in depth for cloud and AI workloads",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/configure-key-vault-security/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.2",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Identity, Access & Agent Authorization"
+  },
+  {
+    "ID": "315",
+    "Slug": "microsoft-security-governance-compliance",
+    "Course Title": "Enforce security governance and regulatory compliance",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.7",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Compliance, Risk & Audit"
+  },
+  {
+    "ID": "316",
+    "Slug": "microsoft-implement-azure-storage-security",
+    "Course Title": "Implement security for Azure Storage",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-azure-storage-security/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Data Governance, Privacy & Sovereignty"
+  },
+  {
+    "ID": "317",
+    "Slug": "microsoft-implement-azure-sql-database-security",
+    "Course Title": "Implement security for Azure SQL databases",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-azure-sql-database-security/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.4",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Data Governance, Privacy & Sovereignty"
+  },
+  {
+    "ID": "318",
+    "Slug": "microsoft-implement-network-security-controls-azure",
+    "Course Title": "Implement network security controls in Azure",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-network-security-controls-azure/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
+  },
+  {
+    "ID": "319",
+    "Slug": "microsoft-implement-ai-security",
+    "Course Title": "Implement security for AI",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-ai-security/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
+  },
+  {
+    "ID": "320",
+    "Slug": "microsoft-server-vm-security",
+    "Course Title": "Implement security for servers and virtual machines",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/server-vm-security/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
+  },
+  {
+    "ID": "321",
+    "Slug": "microsoft-secure-application-platform-services",
+    "Course Title": "Secure Azure application platform services",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/secure-application-platform-services/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
+  },
+  {
+    "ID": "322",
+    "Slug": "microsoft-manage-security-posture-defender-cloud",
+    "Course Title": "Manage security posture by using Microsoft Defender for Cloud",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/manage-security-posture-defender-cloud/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Evaluation, Reliability & Assurance"
+  },
+  {
+    "ID": "323",
+    "Slug": "microsoft-implement-activity-event-collection-sentinel",
+    "Course Title": "Implement activity and event collection in Microsoft Sentinel",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-activity-event-collection-sentinel/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.6",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Evaluation, Reliability & Assurance"
+  },
+  {
+    "ID": "324",
+    "Slug": "microsoft-deploy-operate-security-copilot",
+    "Course Title": "Deploy and operate Microsoft Security Copilot",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/deploy-operate-security-copilot/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "5.3",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "SC-500",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-cloud-ai-security-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
+  },
+  {
+    "ID": "325",
+    "Slug": "microsoft-design-develop-database-solutions",
+    "Course Title": "Design and develop database solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/design-develop-database-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.9",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "DP-800",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-sql-ai-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Data Engineering"
+  },
+  {
+    "ID": "326",
+    "Slug": "microsoft-secure-optimize-deploy-database-solutions",
+    "Course Title": "Secure, optimize, and deploy database solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.9",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "DP-800",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-sql-ai-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Data Engineering"
+  },
+  {
+    "ID": "327",
+    "Slug": "microsoft-implement-ai-capabilities-database-solutions",
+    "Course Title": "Implement AI capabilities in database solutions",
+    "Primary Provider": "Microsoft",
+    "Additional Providers": [],
+    "Instructor": "Microsoft Learn",
+    "Official URL": "https://learn.microsoft.com/en-us/training/paths/implement-ai-capabilities-database-solutions/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.7",
+    "Secondary Tags": [
+      "Microsoft certification preparation",
+      "DP-800",
+      "Microsoft Learn"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration not stated",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Microsoft Learn self-directed preparation path synchronized from the canonical Notion certification map. Course/path completion does not award the professional credential.",
+    "Providers": [
+      "Microsoft"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "microsoft-sql-ai-developer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "RAG, Embeddings & Knowledge Systems"
+  },
+  {
+    "ID": "328",
+    "Slug": "google-generative-ai-leader-certification",
+    "Course Title": "Generative AI Leader Certification",
+    "Primary Provider": "Google",
+    "Additional Providers": [],
+    "Instructor": "Google Skills",
+    "Official URL": "https://www.skills.google/paths/1951",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Google Cloud certification preparation",
+      "Google Skills",
+      "managed certification path"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "5 activities",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official managed Google Skills preparation path synchronized from the canonical Notion certification map. Access varies by underlying activity; completion or skill badges do not award the professional certification.",
+    "Providers": [
+      "Google"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "google-cloud-generative-ai-leader"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "329",
+    "Slug": "google-professional-machine-learning-engineer-certification",
+    "Course Title": "Professional Machine Learning Engineer Certification",
+    "Primary Provider": "Google",
+    "Additional Providers": [],
+    "Instructor": "Google Skills",
+    "Official URL": "https://www.skills.google/paths/17",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.1",
+    "Secondary Tags": [
+      "Google Cloud certification preparation",
+      "Google Skills",
+      "managed certification path"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "17 activities",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official managed Google Skills preparation path synchronized from the canonical Notion certification map. Access varies by underlying activity; completion or skill badges do not award the professional certification.",
+    "Providers": [
+      "Google"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "google-cloud-professional-machine-learning-engineer"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Model Architectures & Generative Models"
+  },
+  {
+    "ID": "330",
+    "Slug": "google-professional-agentic-architect-certification",
+    "Course Title": "Professional Agentic Architect Certification",
+    "Primary Provider": "Google",
+    "Additional Providers": [],
+    "Instructor": "Google Skills",
+    "Official URL": "https://www.skills.google/paths/4525",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.4",
+    "Secondary Tags": [
+      "Google Cloud certification preparation",
+      "Google Skills",
+      "managed certification path"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "13 activities",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official managed Google Skills preparation path synchronized from the canonical Notion certification map. Access varies by underlying activity; completion or skill badges do not award the professional certification.",
+    "Providers": [
+      "Google"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "google-cloud-professional-agentic-architect"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
+  },
+  {
+    "ID": "331",
+    "Slug": "aws-exam-prep-certified-ai-practitioner",
+    "Course Title": "Exam Prep Plan: AWS Certified AI Practitioner",
+    "Primary Provider": "AWS",
+    "Additional Providers": [],
+    "Instructor": "AWS Training and Certification team",
+    "Official URL": "https://skillbuilder.aws/learning-plan/3NRN71QZR2/exam-prep-plan-aws-certified-ai-practitioner-aifc01--english/FBV4STG94B",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "AWS certification preparation",
+      "Exam Prep Plan",
+      "AWS Skill Builder"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration varies by plan component",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official AWS Skill Builder Exam Prep Plan synchronized from the canonical Notion certification map. Access varies by component; some content may require a Skill Builder subscription or AWS usage. Plan completion does not award the professional credential.",
+    "Providers": [
+      "AWS"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "aws-certified-ai-practitioner"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "332",
+    "Slug": "aws-exam-prep-certified-machine-learning-engineer-associate",
+    "Course Title": "Exam Prep Plan: AWS Certified Machine Learning Engineer – Associate",
+    "Primary Provider": "AWS",
+    "Additional Providers": [],
+    "Instructor": "AWS Training and Certification team",
+    "Official URL": "https://skillbuilder.aws/learning-plan/A2FGY8CH1P/exam-prep-plan-aws-certified-machine-learning-engineer--associate-mlac01--english/3YFU86SSKN",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.1",
+    "Secondary Tags": [
+      "AWS certification preparation",
+      "Exam Prep Plan",
+      "AWS Skill Builder"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration varies by plan component",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official AWS Skill Builder Exam Prep Plan synchronized from the canonical Notion certification map. The linked plan is still labeled MLA-C01 while the certification has transitioned to MLA-C02; re-verify alignment before publication. Access varies by component; plan completion does not award the professional credential.",
+    "Providers": [
+      "AWS"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "aws-certified-machine-learning-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Model Architectures & Generative Models"
+  },
+  {
+    "ID": "333",
+    "Slug": "aws-exam-prep-certified-generative-ai-developer-professional",
+    "Course Title": "Exam Prep Plan: AWS Certified Generative AI Developer – Professional",
+    "Primary Provider": "AWS",
+    "Additional Providers": [],
+    "Instructor": "AWS Training and Certification team",
+    "Official URL": "https://skillbuilder.aws/learning-plan/9VXVGYT38G/exam-prep-plan-aws-certified-generative-ai-developer--professional-aipc01--english/4SCMN2659K",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "AWS certification preparation",
+      "Exam Prep Plan",
+      "AWS Skill Builder"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration varies by plan component",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official AWS Skill Builder Exam Prep Plan synchronized from the canonical Notion certification map. Access varies by component; some content may require a Skill Builder subscription or AWS usage. Plan completion does not award the professional credential.",
+    "Providers": [
+      "AWS"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "aws-certified-generative-ai-developer-professional"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "334",
+    "Slug": "aws-exam-prep-certified-ai-business-strategist",
+    "Course Title": "Exam Prep Plan: AWS Certified AI Business Strategist",
+    "Primary Provider": "AWS",
+    "Additional Providers": [],
+    "Instructor": "AWS Training and Certification team",
+    "Official URL": "https://skillbuilder.aws/learning-plan/B8J6KKJ45C/exam-prep-plan--aws-certified-ai-business-strategist-aibc01--english/KQ8WMK8CTE",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "1.3",
+    "Secondary Tags": [
+      "AWS certification preparation",
+      "Exam Prep Plan",
+      "AWS Skill Builder"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration varies by plan component",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official AWS Skill Builder Exam Prep Plan synchronized from the canonical Notion certification map. Access varies by component; some content may require a Skill Builder subscription or AWS usage. Plan completion does not award the professional credential.",
+    "Providers": [
+      "AWS"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "aws-certified-ai-business-strategist"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI for Business System"
+  },
+  {
+    "ID": "335",
+    "Slug": "hugging-face-smol-course",
+    "Course Title": "a smol course",
+    "Primary Provider": "Hugging Face",
+    "Additional Providers": [],
+    "Instructor": "Hugging Face team and contributors",
+    "Official URL": "https://huggingface.co/learn/smol-course",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.3",
+    "Secondary Tags": [
+      "Hugging Face certificate track",
+      "fine-tuning",
+      "post-training"
+    ],
+    "Level": "Not specified",
+    "Estimated Duration": "Self-paced; duration varies by certificate milestone",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official free Hugging Face course synchronized from the canonical Notion certification map. The same course supports both the Fundamentals and Completion certificate milestones.",
+    "Providers": [
+      "Hugging Face"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "hugging-face-smol-course-fundamentals",
+      "hugging-face-smol-course-completion"
+    ],
+    "Course Completion Certificate Status": "available",
+    "Capability": "Fine-Tuning, Alignment & Post-Training"
+  },
+  {
+    "ID": "336",
+    "Slug": "databricks-generative-ai-engineer-associate-certification-path",
+    "Course Title": "Generative AI Engineer Associate certification learning path",
+    "Primary Provider": "Databricks",
+    "Additional Providers": [],
+    "Instructor": "Databricks Academy",
+    "Official URL": "https://academy.databricks.com/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.1",
+    "Secondary Tags": [
+      "Databricks certification preparation",
+      "Generative AI Engineer Associate",
+      "Databricks Academy"
+    ],
+    "Level": "Associate",
+    "Estimated Duration": "Self-paced; duration varies by Academy path",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official Databricks Academy certification learning path referenced by the canonical Notion map. Use the certification exam guide to follow the current recommended training. On-demand Academy learning is free; some labs or instructor-led options can be paid.",
+    "Providers": [
+      "Databricks"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "databricks-certified-generative-ai-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
+  },
+  {
+    "ID": "337",
+    "Slug": "databricks-context-engineer-associate-certification-path",
+    "Course Title": "Context Engineer Associate certification learning path",
+    "Primary Provider": "Databricks",
+    "Additional Providers": [],
+    "Instructor": "Databricks Academy",
+    "Official URL": "https://academy.databricks.com/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "2.6",
+    "Secondary Tags": [
+      "Databricks certification preparation",
+      "Context Engineer Associate",
+      "Databricks Academy"
+    ],
+    "Level": "Associate",
+    "Estimated Duration": "Self-paced; duration varies by Academy path",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official Databricks Academy certification learning path referenced by the canonical Notion map. Use the certification exam guide to follow the current recommended training. On-demand Academy learning is free; some labs or instructor-led options can be paid.",
+    "Providers": [
+      "Databricks"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "databricks-certified-context-engineer-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Context, Memory & State"
+  },
+  {
+    "ID": "338",
+    "Slug": "databricks-machine-learning-associate-certification-path",
+    "Course Title": "Machine Learning Associate certification learning path",
+    "Primary Provider": "Databricks",
+    "Additional Providers": [],
+    "Instructor": "Databricks Academy",
+    "Official URL": "https://academy.databricks.com/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.7",
+    "Secondary Tags": [
+      "Databricks certification preparation",
+      "Machine Learning Associate",
+      "Databricks Academy"
+    ],
+    "Level": "Associate",
+    "Estimated Duration": "Self-paced; duration varies by Academy path",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official Databricks Academy certification learning path referenced by the canonical Notion map. Use the certification exam guide to follow the current recommended training. On-demand Academy learning is free; some labs or instructor-led options can be paid.",
+    "Providers": [
+      "Databricks"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "databricks-certified-machine-learning-associate"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Data Science"
+  },
+  {
+    "ID": "339",
+    "Slug": "databricks-machine-learning-professional-certification-path",
+    "Course Title": "Machine Learning Professional certification learning path",
+    "Primary Provider": "Databricks",
+    "Additional Providers": [],
+    "Instructor": "Databricks Academy",
+    "Official URL": "https://academy.databricks.com/",
+    "Primary Category": "Official Vendors",
+    "Additional Categories": [],
+    "Capability ID": "3.6",
+    "Secondary Tags": [
+      "Databricks certification preparation",
+      "Machine Learning Professional",
+      "Databricks Academy"
+    ],
+    "Level": "Professional",
+    "Estimated Duration": "Self-paced; duration varies by Academy path",
+    "Language": "English",
+    "Release or Update Date": "Not specified",
+    "Notes": "Official Databricks Academy certification learning path referenced by the canonical Notion map. Use the certification exam guide to follow the current recommended training. On-demand Academy learning is free; some labs or instructor-led options can be paid.",
+    "Providers": [
+      "Databricks"
+    ],
+    "Categories": [
+      "Official Vendors"
+    ],
+    "Certificate IDs": [
+      "databricks-certified-machine-learning-professional"
+    ],
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "MLOps & Model Lifecycle Management"
   }
 ]
