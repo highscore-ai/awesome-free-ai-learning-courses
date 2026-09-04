@@ -69,6 +69,12 @@ const categoryOrder = [
   "Creator’s Official Website"
 ];
 const categoryRank = new Map(categoryOrder.map((category, index) => [category, index]));
+const categoryLabels = new Map([
+  ["Official Vendors", "Vendors"],
+  ["Established Educational Providers", "Education"],
+  ["Major Universities", "University"]
+]);
+const categoryLabel = (category) => categoryLabels.get(category) ?? category;
 const providerLogoAliases = {
   "AWS re:Invent": "aws",
   "Code with Claude": "anthropic",
@@ -91,16 +97,16 @@ const categories = [...groupBy(resources, "Primary Category")].sort(([a], [b]) =
   || compare(a, b)
 );
 const lines = [
-  '<a id="readme-top"></a>',
+  "<a id=\"readme-top\"></a>",
   "# Awesome Free Highscore AI Learning Resources",
   "",
   "Awesome free highscore AI learning resources for artificial intelligence, machine learning, LLM applications, agents, AI coding, and related topics.",
   "",
   "Courses with an official certificate pathway are free preparation resources; certification exams, registrations, and credentials may have separate fees or requirements.",
   "",
-  `**${resources.length} resources** from official vendors, universities, established education providers, conference channels, and independent creators.`,
+  "**" + resources.length + " resources** from vendors, established education providers, and universities.",
   "",
-  "> This README is generated from [`data/resources.json`](data/resources.json).",
+  "> This README is generated from [\`data/resources.json\`](data/resources.json).",
   "",
   "**[Quick Submit via GitHub Issue](https://github.com/highscore-ai/awesome-free-ai-learning-courses/issues/new?template=resource-submission.md)**",
   "",
@@ -111,13 +117,22 @@ const lines = [
 ];
 
 for (const [category, categoryItems] of categories) {
-  lines.push(`- [${category} (${categoryItems.length})](#${slug(category)})`);
+  const displayCategory = categoryLabel(category);
+  const providers = [...groupBy(categoryItems, "Primary Provider")].sort(
+    ([providerA, resourcesA], [providerB, resourcesB]) =>
+      resourcesB.length - resourcesA.length || compare(providerA, providerB)
+  );
+  lines.push("- [" + displayCategory + " (" + categoryItems.length + ")](#" + slug(displayCategory) + ")");
+  for (const [provider, providerItems] of providers) {
+    lines.push("  - [" + provider + " (" + providerItems.length + ")](#" + slug(displayCategory + "-" + provider) + ")");
+  }
 }
 
 lines.push("", "---", "");
 
 for (const [category, categoryItems] of categories) {
-  lines.push("<a id=\"" + slug(category) + "\"></a>", "## " + category, "");
+  const displayCategory = categoryLabel(category);
+  lines.push("<a id=\"" + slug(displayCategory) + "\"></a>", "## " + displayCategory, "");
   const providers = [...groupBy(categoryItems, "Primary Provider")].sort(
     ([providerA, resourcesA], [providerB, resourcesB]) =>
       resourcesB.length - resourcesA.length || compare(providerA, providerB)
@@ -130,7 +145,7 @@ for (const [category, categoryItems] of categories) {
       ? "<img src=\"assets/provider-logos/" + logoFile + "\" alt=\"" + provider + " logo\" width=\"28\" height=\"28\"> " + provider
       : provider;
     lines.push(
-      "<a id=\"" + slug(category + "-" + provider) + "\"></a>",
+      "<a id=\"" + slug(displayCategory + "-" + provider) + "\"></a>",
       "### " + providerHeading,
       ""
     );

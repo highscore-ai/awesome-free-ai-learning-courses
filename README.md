@@ -5,7 +5,7 @@ Awesome free highscore AI learning resources for artificial intelligence, machin
 
 Courses with an official certificate pathway are free preparation resources; certification exams, registrations, and credentials may have separate fees or requirements.
 
-**243 resources** from official vendors, universities, established education providers, conference channels, and independent creators.
+**243 resources** from vendors, established education providers, and universities.
 
 > This README is generated from [`data/resources.json`](data/resources.json).
 
@@ -15,16 +15,34 @@ Courses with an official certificate pathway are free preparation resources; cer
 
 ## Contents
 
-- [Official Vendors (100)](#official-vendors)
-- [Established Educational Providers (135)](#established-educational-providers)
-- [Major Universities (8)](#major-universities)
+- [Vendors (100)](#vendors)
+  - [NVIDIA (44)](#vendors-nvidia)
+  - [Anthropic (25)](#vendors-anthropic)
+  - [Hugging Face (7)](#vendors-hugging-face)
+  - [Microsoft (5)](#vendors-microsoft)
+  - [IBM (4)](#vendors-ibm)
+  - [LangChain (4)](#vendors-langchain)
+  - [OpenAI (4)](#vendors-openai)
+  - [Databricks (3)](#vendors-databricks)
+  - [AWS (2)](#vendors-aws)
+  - [Google (2)](#vendors-google)
+- [Education (135)](#education)
+  - [DeepLearning.AI (124)](#education-deeplearning-ai)
+  - [Kaggle (7)](#education-kaggle)
+  - [DataTalks.Club (2)](#education-datatalks-club)
+  - [fast.ai (1)](#education-fast-ai)
+  - [Full Stack Deep Learning (1)](#education-full-stack-deep-learning)
+- [University (8)](#university)
+  - [Stanford University (6)](#university-stanford-university)
+  - [Harvard University (1)](#university-harvard-university)
+  - [MIT (1)](#university-mit)
 
 ---
 
-<a id="official-vendors"></a>
-## Official Vendors
+<a id="vendors"></a>
+## Vendors
 
-<a id="official-vendors-nvidia"></a>
+<a id="vendors-nvidia"></a>
 ### <img src="assets/provider-logos/nvidia.png" alt="NVIDIA logo" width="28" height="28"> NVIDIA
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -74,7 +92,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Rapid Application Development with Large Language Models](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-09+V2) | Not specified | 8h / $500 | Not specified | AI Application Architecture & Integration | [NCA Generative AI Large Language Models](https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/) |
 | [Spectrum-X Networking Platform Administration: Private Training](https://www.nvidia.com/en-us/training/academy/course-detail?id=course%3A15877850) | Not specified | 12h / Contact Us | Not specified | AI Networking & RDMA Fabrics | [NCP AI Networking](https://www.nvidia.com/en-us/learn/certification/ai-networking-professional/) |
 
-<a id="official-vendors-anthropic"></a>
+<a id="vendors-anthropic"></a>
 ### <img src="assets/provider-logos/anthropic.png" alt="Anthropic logo" width="28" height="28"> Anthropic
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -105,7 +123,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Model Context Protocol: Advanced Topics](https://academy.claude.com/courses/model-context-protocol-advanced-topics) | Intermediate | Self-paced; duration not stated | 2025 | Tools, APIs & Agent Protocols | [Claude Certified Architect — Professional](https://anthropic-partners.skilljar.com/claude-certified-architect-professional-certification) |
 | [Teaching AI Fluency](https://academy.claude.com/courses/teaching-ai-fluency) | Intermediate | Self-paced; duration not stated | 2025-07 | Prompting & Structured Interaction | — |
 
-<a id="official-vendors-hugging-face"></a>
+<a id="vendors-hugging-face"></a>
 ### <img src="assets/provider-logos/hugging-face.png" alt="Hugging Face logo" width="28" height="28"> Hugging Face
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -118,7 +136,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | Intermediate | 6–8 hours per chapter | Continuously updated | Model Architectures & Generative Models | — |
 | [Hugging Face Model Context Protocol (MCP) Course](https://huggingface.co/learn/mcp-course/unit0/introduction) | Beginner | Multi-unit; self-paced | 2025 | Tools, APIs & Agent Protocols | — |
 
-<a id="official-vendors-microsoft"></a>
+<a id="vendors-microsoft"></a>
 ### <img src="assets/provider-logos/microsoft.png" alt="Microsoft logo" width="28" height="28"> Microsoft
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -129,7 +147,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet) | Beginner | 5 lessons; self-paced | 2025-02 | AI Coding & Software Engineering | — |
 | [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners) | Beginner | 12 weeks; 26 lessons | 2021; continuously updated | Machine Learning & Mathematical Foundations | — |
 
-<a id="official-vendors-ibm"></a>
+<a id="vendors-ibm"></a>
 ### <img src="assets/provider-logos/ibm.png" alt="IBM logo" width="28" height="28"> IBM
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -139,7 +157,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Make Agentic AI Work for You](https://skillsbuild.org/learning-catalog?topic=ai) | Beginner | 4 hours | Current catalog | Agentic Workflows & Multi-Agent Systems | — |
 | [Retrieval-Augmented Generation for Enhanced AI Outputs](https://skillsbuild.org/learning-catalog?topic=ai) | Intermediate | 4 hours | Current catalog | RAG, Embeddings & Knowledge Systems | — |
 
-<a id="official-vendors-langchain"></a>
+<a id="vendors-langchain"></a>
 ### <img src="assets/provider-logos/langchain.png" alt="LangChain logo" width="28" height="28"> LangChain
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -149,7 +167,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Introduction to LangChain: Build AI Agents with Python](https://academy.langchain.com/courses/foundation-introduction-to-langchain-python) | Beginner | 1.5 hours of video | 2024-10 | Agentic Workflows & Multi-Agent Systems | — |
 | [Project: Ambient Agents with LangGraph](https://academy.langchain.com/courses/ambient-agents) | Intermediate | 2.5 hours of video | 2025-01 | Agentic Workflows & Multi-Agent Systems | — |
 
-<a id="official-vendors-openai"></a>
+<a id="vendors-openai"></a>
 ### <img src="assets/provider-logos/openai.png" alt="OpenAI logo" width="28" height="28"> OpenAI
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -159,7 +177,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Applied AI Foundations](https://academy.openai.com/public/courses/applied-ai-foundations-hgk7r) | Beginner | 75–90 minutes | 2026-06 | Prompting & Structured Interaction | — |
 | [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) | Intermediate | Unknown | 2018-11 | Machine Learning & Mathematical Foundations | — |
 
-<a id="official-vendors-databricks"></a>
+<a id="vendors-databricks"></a>
 ### <img src="assets/provider-logos/databricks.png" alt="Databricks logo" width="28" height="28"> Databricks
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -168,7 +186,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Large Language Models: Application through Production](https://www.youtube.com/playlist?list=PLTPXxbhUt-YWSR8wtILixhZLF9qB_1yZm) | Intermediate | Multi-week course | 2023-05 | MLOps & Model Lifecycle Management | — |
 | [Large Language Models: Foundation Models from the Ground Up](https://www.databricks.com/blog/enroll-our-new-expert-led-large-language-models-llms-courses-edx) | Intermediate | Multi-week course | 2023-05 | Model Architectures & Generative Models | — |
 
-<a id="official-vendors-aws"></a>
+<a id="vendors-aws"></a>
 ### <img src="assets/provider-logos/aws.png" alt="AWS logo" width="28" height="28"> AWS
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -176,7 +194,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Generative AI Learning Plan for Developers](https://skillbuilder.aws/learning-plan/5C9XQBTXBB/generative-ai-learning-plan-for-developers-includes-labs/EGATKJP13J) | Intermediate | 19 hours | Continuously updated | AI Application Architecture & Integration | — |
 | [Machine Learning Learning Plan](https://explore.skillbuilder.aws/learn/learning_plan/view/28/machine-learning-learning-plan) | Beginner | Unknown | Continuously updated | MLOps & Model Lifecycle Management | — |
 
-<a id="official-vendors-google"></a>
+<a id="vendors-google"></a>
 ### <img src="assets/provider-logos/google.png" alt="Google logo" width="28" height="28"> Google
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -188,10 +206,10 @@ Courses with an official certificate pathway are free preparation resources; cer
 
 ---
 
-<a id="established-educational-providers"></a>
-## Established Educational Providers
+<a id="education"></a>
+## Education
 
-<a id="established-educational-providers-deeplearning-ai"></a>
+<a id="education-deeplearning-ai"></a>
 ### <img src="assets/provider-logos/deeplearning-ai.png" alt="DeepLearning.AI logo" width="28" height="28"> DeepLearning.AI
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -321,7 +339,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/courses/vector-databases-from-embeddings-to-applications) | Intermediate | Unknown | 2023-11 | RAG, Embeddings & Knowledge Systems | — |
 | [Vibe Coding 101 with Replit](https://www.deeplearning.ai/courses/vibe-coding-101-with-replit) | Beginner | Unknown | 2025-03 | AI Coding & Software Engineering | — |
 
-<a id="established-educational-providers-kaggle"></a>
+<a id="education-kaggle"></a>
 ### <img src="assets/provider-logos/kaggle.png" alt="Kaggle logo" width="28" height="28"> Kaggle
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -334,7 +352,7 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | Beginner | Approx. 4 hours | 2019-09 | Deep Learning | — |
 | [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Beginner | Approx. 3 hours | 2018-03 | Machine Learning & Mathematical Foundations | — |
 
-<a id="established-educational-providers-datatalks-club"></a>
+<a id="education-datatalks-club"></a>
 ### <img src="assets/provider-logos/datatalks-club.png" alt="DataTalks.Club logo" width="28" height="28"> DataTalks.Club
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -342,14 +360,14 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [AI Dev Tools Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43) | Intermediate | 6 modules plus final project; self-paced | 2026-08 | AI Coding & Software Engineering | — |
 | [Machine Learning Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR) | Intermediate | 19 weeks; self-paced option available | 2026-09 | Machine Learning & Mathematical Foundations | — |
 
-<a id="established-educational-providers-fast-ai"></a>
+<a id="education-fast-ai"></a>
 ### <img src="assets/provider-logos/fast-ai.png" alt="fast.ai logo" width="28" height="28"> fast.ai
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
 |---|---|---|---|---|---|
 | [Practical Deep Learning for Coders](https://course.fast.ai/) | Intermediate | 9 lessons; about 13.5 hours | 2022 | Deep Learning | — |
 
-<a id="established-educational-providers-full-stack-deep-learning"></a>
+<a id="education-full-stack-deep-learning"></a>
 ### <img src="assets/provider-logos/full-stack-deep-learning.png" alt="Full Stack Deep Learning logo" width="28" height="28"> Full Stack Deep Learning
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -360,10 +378,10 @@ Courses with an official certificate pathway are free preparation resources; cer
 
 ---
 
-<a id="major-universities"></a>
-## Major Universities
+<a id="university"></a>
+## University
 
-<a id="major-universities-stanford-university"></a>
+<a id="university-stanford-university"></a>
 ### <img src="assets/provider-logos/stanford.png" alt="Stanford University logo" width="28" height="28"> Stanford University
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
@@ -375,14 +393,14 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Stanford CS25: Transformers United](https://web.stanford.edu/class/cs25/) | Intermediate | Weekly seminar series | Version 6; continuously updated | Model Architectures & Generative Models | — |
 | [Stanford CS336: Language Modeling from Scratch](https://stanford-cs336.github.io/) | Intermediate | 10-week university course | Spring 2026 | Pre-Training & Distributed Training | — |
 
-<a id="major-universities-harvard-university"></a>
+<a id="university-harvard-university"></a>
 ### <img src="assets/provider-logos/harvard.png" alt="Harvard University logo" width="28" height="28"> Harvard University
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
 |---|---|---|---|---|---|
 | [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) | Intermediate | 7 weeks | 2024 edition | Machine Learning & Mathematical Foundations | [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) |
 
-<a id="major-universities-mit"></a>
+<a id="university-mit"></a>
 ### <img src="assets/provider-logos/mit.png" alt="MIT logo" width="28" height="28"> MIT
 
 | Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |
