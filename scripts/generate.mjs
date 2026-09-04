@@ -31,6 +31,7 @@ const assertUnique = (items, field, dataset) => {
   }
 };
 const certificateIds = new Set(certificates.map((certificate) => certificate.ID));
+const certificatesById = new Map(certificates.map((certificate) => [certificate.ID, certificate]));
 assertUnique(resources, "ID", "resources");
 assertUnique(resources, "Slug", "resources");
 assertUnique(certificates, "ID", "certificates");
@@ -95,6 +96,8 @@ const lines = [
   "",
   "Awesome free highscore AI learning resources for artificial intelligence, machine learning, LLM applications, agents, AI coding, and related topics.",
   "",
+  "Courses with an official certificate pathway are free preparation resources; certification exams, registrations, and credentials may have separate fees or requirements.",
+  "",
   `**${resources.length} resources** from official vendors, universities, established education providers, conference channels, and independent creators.`,
   "",
   "> This README is generated from [`data/resources.json`](data/resources.json).",
@@ -110,72 +113,42 @@ const lines = [
 for (const [category, categoryItems] of categories) {
   lines.push(`- [${category} (${categoryItems.length})](#${slug(category)})`);
 }
-lines.push("- [Official AI Certificates (" + certificates.length + ")](#official-ai-certificates)");
 
 lines.push("", "---", "");
 
 for (const [category, categoryItems] of categories) {
-  lines.push(`<a id="${slug(category)}"></a>`, `## ${category}`, "");
+  lines.push("<a id=\"" + slug(category) + "\"></a>", "## " + category, "");
   const providers = [...groupBy(categoryItems, "Primary Provider")].sort(
     ([providerA, resourcesA], [providerB, resourcesB]) =>
       resourcesB.length - resourcesA.length || compare(providerA, providerB)
   );
   for (const [provider, providerItems] of providers) {
     const logo = providerLogo(provider);
-    const logoFile = ["png", "svg"].map((extension) => `${logo}.${extension}`)
+    const logoFile = ["png", "svg"].map((extension) => logo + "." + extension)
       .find((file) => availableLogos.has(file));
     const providerHeading = logoFile
-      ? `<img src="assets/provider-logos/${logoFile}" alt="${provider} logo" width="28" height="28"> ${provider}`
+      ? "<img src=\"assets/provider-logos/" + logoFile + "\" alt=\"" + provider + " logo\" width=\"28\" height=\"28\"> " + provider
       : provider;
     lines.push(
-      `<a id="${slug(`${category}-${provider}`)}"></a>`,
-      `### ${providerHeading}`,
+      "<a id=\"" + slug(category + "-" + provider) + "\"></a>",
+      "### " + providerHeading,
       ""
     );
-    lines.push("| Resource | Level | Duration | Release / Update | Focus |", "|---|---|---|---|---|");
+    lines.push("| Resource | Level | Duration | Release / Update | Focus | Official certificate pathways |", "|---|---|---|---|---|---|");
     for (const resource of [...providerItems].sort((a, b) => compare(a["Course Title"], b["Course Title"]))) {
       const focus = resource.Capability;
-      const title = `[${clean(resource["Course Title"])}](${resource["Official URL"]})`;
+      const title = "[" + clean(resource["Course Title"]) + "](" + resource["Official URL"] + ")";
       const releaseDate = resource["Release or Update Date"] || resource["Release Date"] || "Unknown";
-      lines.push(`| ${title} | ${clean(resource.Level)} | ${clean(resource["Estimated Duration"])} | ${yearMonth(releaseDate)} | ${clean(focus)} |`);
+      const certificatesForCourse = resource["Certificate IDs"].map((certificateId) => certificatesById.get(certificateId));
+      const pathways = certificatesForCourse.length
+        ? certificatesForCourse.map((certificate) => "[" + clean(certificate["Certificate Title"]) + "](" + certificate["Official URL"] + ")").join("; ")
+        : "—";
+      lines.push("| " + title + " | " + clean(resource.Level) + " | " + clean(resource["Estimated Duration"]) + " | " + yearMonth(releaseDate) + " | " + clean(focus) + " | " + pathways + " |");
     }
     lines.push("");
   }
   lines.push("[Back to top](#readme-top)", "", "---", "");
 }
-
-const mappedCoursesByCertificate = new Map(certificates.map((certificate) => [certificate.ID, []]));
-for (const resource of resources) {
-  for (const certificateId of resource["Certificate IDs"]) {
-    mappedCoursesByCertificate.get(certificateId).push(resource);
-  }
-}
-const certificatesWithPreparation = [...mappedCoursesByCertificate.values()]
-  .filter((mappedCourses) => mappedCourses.length > 0).length;
-lines.push(
-  "<a id=\"official-ai-certificates\"></a>",
-  "## Official AI Certificates",
-  "",
-  "These are official credentials from their issuers. The linked preparation courses are free learning resources; certification exams, registrations, and credentials may have separate fees or requirements.",
-  "",
-  "**" + certificates.length + " certificates**; **" + certificatesWithPreparation + "** have mapped free preparation courses.",
-  "",
-  "| Certificate | Issuer / Credential | Mapped free preparation courses |",
-  "|---|---|---|"
-);
-for (const certificate of [...certificates].sort((a, b) =>
-  compare(a.Issuer, b.Issuer) || compare(a["Certificate Title"], b["Certificate Title"])
-)) {
-  const mappedCourses = [...mappedCoursesByCertificate.get(certificate.ID)]
-    .sort((a, b) => compare(a["Course Title"], b["Course Title"]));
-  const preparation = mappedCourses.length
-    ? mappedCourses.map((course) => "[" + clean(course["Course Title"]) + "](" + course["Official URL"] + ")").join("; ")
-    : "No mapped free preparation course yet.";
-  const title = "[" + clean(certificate["Certificate Title"]) + "](" + certificate["Official URL"] + ")";
-  const details = clean(certificate.Issuer) + " · " + clean(certificate["Credential Type"]);
-  lines.push("| " + title + " | " + details + " | " + preparation + " |");
-}
-lines.push("", "[Back to top](#readme-top)", "", "---", "");
 
 lines.push(
   "## Open-Source Philosophy and License",
