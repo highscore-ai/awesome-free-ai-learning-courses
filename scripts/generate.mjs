@@ -1,16 +1,15 @@
-import { access, readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const projectDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(projectDir, "data/resources.json");
-const parentSourcePath = path.resolve(projectDir, "../app/data/courses.json");
-const sourcePath = await access(parentSourcePath).then(() => parentSourcePath).catch(() => dataPath);
+const certificatesPath = path.join(projectDir, "data/certificates.json");
 const readmePath = path.join(projectDir, "README.md");
 const checkOnly = process.argv.includes("--check");
 
-const allResources = JSON.parse(await readFile(sourcePath, "utf8"));
-const resources = allResources;
+const resources = JSON.parse(await readFile(dataPath, "utf8"));
+const certificates = JSON.parse(await readFile(certificatesPath, "utf8"));
 
 const compare = (a, b) => a.localeCompare(b, "en", { sensitivity: "base" });
 const groupBy = (items, field) => {
@@ -21,6 +20,33 @@ const groupBy = (items, field) => {
   }
   return groups;
 };
+const assertUnique = (items, field, dataset) => {
+  const values = new Set();
+  for (const item of items) {
+    const value = item[field];
+    if (!value || values.has(value)) {
+      throw new Error(dataset + " has a missing or duplicate " + field + ": " + (value ?? "(missing)"));
+    }
+    values.add(value);
+  }
+};
+const certificateIds = new Set(certificates.map((certificate) => certificate.ID));
+assertUnique(resources, "ID", "resources");
+assertUnique(resources, "Slug", "resources");
+assertUnique(certificates, "ID", "certificates");
+for (const resource of resources) {
+  if (!resource["Capability ID"] || !resource.Capability) {
+    throw new Error("Resource " + resource.Slug + " must include Capability ID and Capability.");
+  }
+  if (!Array.isArray(resource["Certificate IDs"])) {
+    throw new Error("Resource " + resource.Slug + " must include Certificate IDs as an array.");
+  }
+  for (const certificateId of resource["Certificate IDs"]) {
+    if (!certificateIds.has(certificateId)) {
+      throw new Error("Resource " + resource.Slug + " references unknown certificate " + certificateId + ".");
+    }
+  }
+}
 const slug = (value) => value
   .toLowerCase()
   .replace(/[’']/g, "")
@@ -107,7 +133,7 @@ for (const [category, categoryItems] of categories) {
     );
     lines.push("| Resource | Level | Duration | Release / Update | Focus |", "|---|---|---|---|---|");
     for (const resource of [...providerItems].sort((a, b) => compare(a["Course Title"], b["Course Title"]))) {
-      const focus = [resource["Primary Capability"], ...(resource["Additional Capabilities"] ?? [])].slice(0, 3).join(", ");
+      const focus = resource.Capability;
       const title = `[${clean(resource["Course Title"])}](${resource["Official URL"]})`;
       const releaseDate = resource["Release or Update Date"] || resource["Release Date"] || "Unknown";
       lines.push(`| ${title} | ${clean(resource.Level)} | ${clean(resource["Estimated Duration"])} | ${yearMonth(releaseDate)} | ${clean(focus)} |`);
