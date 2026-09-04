@@ -139,10 +139,11 @@ const lines = [
 for (const { category, items: categoryItems } of categories) {
   const displayCategory = categoryLabel(category);
   const providers = providersForCategory(category, categoryItems);
-  lines.push("- [" + displayCategory + " (" + categoryItems.length + ")](#" + slug(displayCategory) + ")");
-  for (const { provider, items: providerItems } of providers) {
-    lines.push("  - [" + provider + " (" + providerItems.length + ")](#" + slug(displayCategory + "-" + provider) + ")");
-  }
+  const providerLinks = providers.map(({ provider, items: providerItems }) =>
+    "[" + provider + " (" + providerItems.length + ")](#" + slug(displayCategory + "-" + provider) + ")"
+  ).join(" · ");
+  lines.push("**[" + displayCategory + " (" + categoryItems.length + ")](#" + slug(displayCategory) + ")**");
+  lines.push(providerLinks, "");
 }
 
 lines.push("", "---", "");
