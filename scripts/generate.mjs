@@ -110,6 +110,7 @@ const lines = [
 for (const [category, categoryItems] of categories) {
   lines.push(`- [${category} (${categoryItems.length})](#${slug(category)})`);
 }
+lines.push("- [Official AI Certificates (" + certificates.length + ")](#official-ai-certificates)");
 
 lines.push("", "---", "");
 
@@ -142,6 +143,39 @@ for (const [category, categoryItems] of categories) {
   }
   lines.push("[Back to top](#readme-top)", "", "---", "");
 }
+
+const mappedCoursesByCertificate = new Map(certificates.map((certificate) => [certificate.ID, []]));
+for (const resource of resources) {
+  for (const certificateId of resource["Certificate IDs"]) {
+    mappedCoursesByCertificate.get(certificateId).push(resource);
+  }
+}
+const certificatesWithPreparation = [...mappedCoursesByCertificate.values()]
+  .filter((mappedCourses) => mappedCourses.length > 0).length;
+lines.push(
+  "<a id=\"official-ai-certificates\"></a>",
+  "## Official AI Certificates",
+  "",
+  "These are official credentials from their issuers. The linked preparation courses are free learning resources; certification exams, registrations, and credentials may have separate fees or requirements.",
+  "",
+  "**" + certificates.length + " certificates**; **" + certificatesWithPreparation + "** have mapped free preparation courses.",
+  "",
+  "| Certificate | Issuer / Credential | Mapped free preparation courses |",
+  "|---|---|---|"
+);
+for (const certificate of [...certificates].sort((a, b) =>
+  compare(a.Issuer, b.Issuer) || compare(a["Certificate Title"], b["Certificate Title"])
+)) {
+  const mappedCourses = [...mappedCoursesByCertificate.get(certificate.ID)]
+    .sort((a, b) => compare(a["Course Title"], b["Course Title"]));
+  const preparation = mappedCourses.length
+    ? mappedCourses.map((course) => "[" + clean(course["Course Title"]) + "](" + course["Official URL"] + ")").join("; ")
+    : "No mapped free preparation course yet.";
+  const title = "[" + clean(certificate["Certificate Title"]) + "](" + certificate["Official URL"] + ")";
+  const details = clean(certificate.Issuer) + " · " + clean(certificate["Credential Type"]);
+  lines.push("| " + title + " | " + details + " | " + preparation + " |");
+}
+lines.push("", "[Back to top](#readme-top)", "", "---", "");
 
 lines.push(
   "## Open-Source Philosophy and License",
