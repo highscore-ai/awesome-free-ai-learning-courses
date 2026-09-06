@@ -1,16 +1,15 @@
-import { access, readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const projectDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(projectDir, "data/resources.json");
-const parentSourcePath = path.resolve(projectDir, "../app/data/courses.json");
-const sourcePath = await access(parentSourcePath).then(() => parentSourcePath).catch(() => dataPath);
+const certificatesPath = path.join(projectDir, "data/certificates.json");
 const readmePath = path.join(projectDir, "README.md");
 const checkOnly = process.argv.includes("--check");
 
-const allResources = JSON.parse(await readFile(sourcePath, "utf8"));
-const resources = allResources;
+const resources = JSON.parse(await readFile(dataPath, "utf8"));
+const certificates = JSON.parse(await readFile(certificatesPath, "utf8"));
 
 const compare = (a, b) => a.localeCompare(b, "en", { sensitivity: "base" });
 const groupBy = (items, field) => {
@@ -21,6 +20,33 @@ const groupBy = (items, field) => {
   }
   return groups;
 };
+const assertUnique = (items, field, dataset) => {
+  const values = new Set();
+  for (const item of items) {
+    const value = item[field];
+    if (!value || values.has(value)) {
+      throw new Error(dataset + " has a missing or duplicate " + field + ": " + (value ?? "(missing)"));
+    }
+    values.add(value);
+  }
+};
+const certificateIds = new Set(certificates.map((certificate) => certificate.ID));
+const certificatesById = new Map(certificates.map((certificate) => [certificate.ID, certificate]));
+assertUnique(resources, "Slug", "resources");
+assertUnique(certificates, "ID", "certificates");
+for (const resource of resources) {
+  if (!resource["Capability ID"] || !resource.Capability) {
+    throw new Error("Resource " + resource.Slug + " must include Capability ID and Capability.");
+  }
+  if (!Array.isArray(resource["Certificate IDs"])) {
+    throw new Error("Resource " + resource.Slug + " must include Certificate IDs as an array.");
+  }
+  for (const certificateId of resource["Certificate IDs"]) {
+    if (!certificateIds.has(certificateId)) {
+      throw new Error("Resource " + resource.Slug + " references unknown certificate " + certificateId + ".");
+    }
+  }
+}
 const slug = (value) => value
   .toLowerCase()
   .replace(/[’']/g, "")
@@ -36,42 +62,71 @@ const yearMonth = (value) => {
 
 const categoryOrder = [
   "Official Vendors",
-  "Official Conference Channel",
   "Established Educational Providers",
-  "Major Universities",
-  "Creator’s Official Website"
+  "Major Universities"
 ];
 const categoryRank = new Map(categoryOrder.map((category, index) => [category, index]));
+const categoryLabels = new Map([
+  ["Official Vendors", "Vendors"],
+  ["Established Educational Providers", "Education"],
+  ["Major Universities", "Universities"]
+]);
+const categoryLabel = (category) => categoryLabels.get(category) ?? category;
 const providerLogoAliases = {
-  "AWS re:Invent": "aws",
-  "Code with Claude": "anthropic",
-  "Data + AI Summit": "databricks",
-  "GitHub Universe": "github",
-  "Google I/O": "google",
-  "Google Cloud Next": "google",
-  "Microsoft Build": "microsoft",
-  "MIT OpenCourseWare": "mit",
-  "NVIDIA GTC": "nvidia",
-  "OpenAI DevDay": "openai",
-  "PyTorch Conference": "pytorch",
   "Stanford University": "stanford",
   "Harvard University": "harvard"
 };
 const providerLogo = (provider) => providerLogoAliases[provider] ?? slug(provider);
 const availableLogos = new Set(await readdir(path.join(projectDir, "assets/provider-logos")));
-const categories = [...groupBy(resources, "Primary Category")].sort(([a], [b]) =>
-  (categoryRank.get(a) ?? Number.MAX_SAFE_INTEGER) - (categoryRank.get(b) ?? Number.MAX_SAFE_INTEGER)
-  || compare(a, b)
+const providerAliases = new Map([
+  ["AMD (formerly Lamini)", "AMD"],
+  ["CrewAI", "crewAI"],
+  ["Nvidia", "NVIDIA"]
+]);
+const normalizeProviderName = (provider) => providerAliases.get(provider) ?? provider;
+const sourceCategories = categoryOrder;
+const providerCategoryPairs = (resource) => {
+  const additionalProviders = resource["Additional Providers"] ?? [];
+  const additionalCategories = resource["Additional Categories"] ?? [];
+  return [
+    { provider: normalizeProviderName(resource["Primary Provider"]), category: resource["Primary Category"] },
+    ...additionalProviders.map((provider, index) => ({
+      provider: normalizeProviderName(provider),
+      category: additionalCategories.length === 1
+        ? additionalCategories[0]
+        : additionalCategories[index] ?? additionalCategories.at(-1) ?? ""
+    }))
+  ].filter((item) => item.provider && item.category);
+};
+const matchesProviderCategory = (resource, provider, category) => providerCategoryPairs(resource)
+  .some((item) => item.provider === provider && item.category === category);
+const categories = sourceCategories.map((category) => ({
+  category,
+  items: resources.filter((resource) => providerCategoryPairs(resource)
+    .some((item) => item.category === category))
+})).filter(({ items }) => items.length > 0).sort((a, b) =>
+  (categoryRank.get(a.category) ?? Number.MAX_SAFE_INTEGER) - (categoryRank.get(b.category) ?? Number.MAX_SAFE_INTEGER)
+  || compare(a.category, b.category)
 );
+const providersForCategory = (category, categoryItems) => [...new Set(categoryItems.flatMap((resource) => providerCategoryPairs(resource)
+  .filter((item) => item.category === category)
+  .map((item) => item.provider)))]
+  .map((provider) => ({
+    provider,
+    items: categoryItems.filter((resource) => matchesProviderCategory(resource, provider, category))
+  }))
+  .sort((a, b) => b.items.length - a.items.length || compare(a.provider, b.provider));
 const lines = [
-  '<a id="readme-top"></a>',
+  "<a id=\"readme-top\"></a>",
   "# Awesome Free Highscore AI Learning Resources",
   "",
-  "Awesome free highscore AI learning resources for artificial intelligence, machine learning, LLM applications, agents, AI coding, and related topics.",
+  "Awesome free HighScore AI learning resources for artificial intelligence, machine learning, LLM applications, agents, AI coding, and related topics.",
   "",
-  `**${resources.length} resources** from official vendors, universities, established education providers, conference channels, and independent creators.`,
+  "Courses with an official certificate pathway are free preparation resources; certification exams, registrations, and credentials may have separate fees or requirements.",
   "",
-  "> This README is generated from [`data/resources.json`](data/resources.json).",
+  "**" + resources.length + " course records** from vendors, established education providers, and universities.",
+  "",
+  "> This README is generated from [data/resources.json](data/resources.json).",
   "",
   "**[Quick Submit via GitHub Issue](https://github.com/highscore-ai/awesome-free-ai-learning-courses/issues/new?template=resource-submission.md)**",
   "",
@@ -81,36 +136,44 @@ const lines = [
   ""
 ];
 
-for (const [category, categoryItems] of categories) {
-  lines.push(`- [${category} (${categoryItems.length})](#${slug(category)})`);
+for (const { category, items: categoryItems } of categories) {
+  const displayCategory = categoryLabel(category);
+  const providers = providersForCategory(category, categoryItems);
+  const providerLinks = providers.map(({ provider, items: providerItems }) =>
+    "[" + provider + " (" + providerItems.length + ")](#" + slug(displayCategory + "-" + provider) + ")"
+  ).join(" · ");
+  lines.push("**[" + displayCategory + " (" + categoryItems.length + ")](#" + slug(displayCategory) + ")**");
+  lines.push(providerLinks, "");
 }
 
 lines.push("", "---", "");
 
-for (const [category, categoryItems] of categories) {
-  lines.push(`<a id="${slug(category)}"></a>`, `## ${category}`, "");
-  const providers = [...groupBy(categoryItems, "Primary Provider")].sort(
-    ([providerA, resourcesA], [providerB, resourcesB]) =>
-      resourcesB.length - resourcesA.length || compare(providerA, providerB)
-  );
-  for (const [provider, providerItems] of providers) {
+for (const { category, items: categoryItems } of categories) {
+  const displayCategory = categoryLabel(category);
+  lines.push("<a id=\"" + slug(displayCategory) + "\"></a>", "## " + displayCategory, "");
+  const providers = providersForCategory(category, categoryItems);
+  for (const { provider, items: providerItems } of providers) {
     const logo = providerLogo(provider);
-    const logoFile = ["png", "svg"].map((extension) => `${logo}.${extension}`)
+    const logoFile = ["png", "svg"].map((extension) => logo + "." + extension)
       .find((file) => availableLogos.has(file));
     const providerHeading = logoFile
-      ? `<img src="assets/provider-logos/${logoFile}" alt="${provider} logo" width="28" height="28"> ${provider}`
+      ? "<img src=\"assets/provider-logos/" + logoFile + "\" alt=\"" + provider + " logo\" width=\"28\" height=\"28\"> " + provider
       : provider;
     lines.push(
-      `<a id="${slug(`${category}-${provider}`)}"></a>`,
-      `### ${providerHeading}`,
+      "<a id=\"" + slug(displayCategory + "-" + provider) + "\"></a>",
+      "### " + providerHeading,
       ""
     );
-    lines.push("| Resource | Level | Duration | Release / Update | Focus |", "|---|---|---|---|---|");
+    lines.push("| Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |", "|---|---|---|---|---|---|---|");
     for (const resource of [...providerItems].sort((a, b) => compare(a["Course Title"], b["Course Title"]))) {
-      const focus = [resource["Primary Capability"], ...(resource["Additional Capabilities"] ?? [])].slice(0, 3).join(", ");
-      const title = `[${clean(resource["Course Title"])}](${resource["Official URL"]})`;
+      const focus = resource.Capability;
+      const title = "[" + clean(resource["Course Title"]) + "](" + resource["Official URL"] + ")";
       const releaseDate = resource["Release or Update Date"] || resource["Release Date"] || "Unknown";
-      lines.push(`| ${title} | ${clean(resource.Level)} | ${clean(resource["Estimated Duration"])} | ${yearMonth(releaseDate)} | ${clean(focus)} |`);
+      const certificatesForCourse = resource["Certificate IDs"].map((certificateId) => certificatesById.get(certificateId));
+      const pathways = certificatesForCourse.length
+        ? certificatesForCourse.map((certificate) => "[" + clean(certificate["Certificate Title"]) + "](" + certificate["Official URL"] + ")").join("; ")
+        : "—";
+      lines.push("| " + title + " | " + clean(resource["Primary Provider"]) + " | " + clean(resource.Level) + " | " + clean(resource["Estimated Duration"]) + " | " + yearMonth(releaseDate) + " | " + clean(focus) + " | " + pathways + " |");
     }
     lines.push("");
   }
