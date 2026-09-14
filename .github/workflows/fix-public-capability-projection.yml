@@ -1,0 +1,88 @@
+name: Normalize canonical partner data for public schema
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fix-public-capability-projection.yml
+
+permissions:
+  contents: write
+
+jobs:
+  normalize-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Derive public capability labels from existing canonical IDs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import defaultdict
+          from pathlib import Path
+
+          path = Path('data/resources.json')
+          resources = json.loads(path.read_text(encoding='utf-8'))
+
+          partner_slugs = {
+              'hpe-ai-fundamentals',
+              'hpe-ai-solutions',
+              'hpe-private-cloud-ai-solutions',
+              'cisco-ai-technical-practitioner-training',
+              'cisco-ai-solutions-infrastructure-essentials-dcaie',
+              'cisco-operate-troubleshoot-ai-infrastructure-dcaiaot',
+              'nutanix-enterprise-ai-administration',
+              'dell-understanding-generative-ai',
+              'dell-large-language-models-concepts',
+              'dell-building-generative-ai-ecosystem',
+              'dell-introduction-to-prompt-engineering',
+              'dell-agentic-ai-in-context',
+              'dell-ai-security-foundations-exam-prep',
+          }
+
+          labels_by_id = defaultdict(set)
+          for item in resources:
+              cid = item.get('Capability ID')
+              label = item.get('Capability')
+              if cid and label and item.get('Slug') not in partner_slugs:
+                  labels_by_id[str(cid)].add(str(label))
+
+          targets = [r for r in resources if r.get('Slug') in partner_slugs]
+          if len(targets) != len(partner_slugs):
+              found = {r.get('Slug') for r in targets}
+              raise SystemExit(f'Missing partner slugs: {sorted(partner_slugs - found)}')
+
+          for item in targets:
+              cid = str(item.get('Capability ID'))
+              labels = labels_by_id.get(cid, set())
+              if len(labels) != 1:
+                  raise SystemExit(f'Capability ID {cid} has ambiguous/missing public label: {sorted(labels)}')
+              item['Capability'] = next(iter(labels))
+
+          path.write_text(json.dumps(resources, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('Derived capability labels for all 13 canonical partner courses.')
+          PY
+      - name: Regenerate public projection and validate
+        shell: bash
+        run: |
+          node scripts/generate.mjs
+          npm run check
+      - name: Commit normalized public projection
+        shell: bash
+        run: |
+          git config user.name "HighScore Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/resources.json README.md
+          if git diff --cached --quiet; then
+            echo "No projection changes needed."
+          else
+            git commit -m "fix: normalize canonical partner data for public schema"
+            git push origin HEAD:main
+          fi
