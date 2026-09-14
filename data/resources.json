@@ -10245,7 +10245,8 @@
     "Certificate IDs": [
       "hpe-atp-ai-solutions"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Servers, GPUs & Accelerators"
   },
   {
     "ID": "341",
@@ -10278,7 +10279,8 @@
     "Certificate IDs": [
       "hpe-ase-ai-solutions"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Servers, GPUs & Accelerators"
   },
   {
     "ID": "342",
@@ -10311,7 +10313,8 @@
     "Certificate IDs": [
       "hpe-solution-certified-private-cloud-ai"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Enterprise AI Architecture & Operating Model"
   },
   {
     "ID": "343",
@@ -10344,7 +10347,8 @@
     "Certificate IDs": [
       "cisco-ai-technical-practitioner"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Application Architecture & Integration"
   },
   {
     "ID": "344",
@@ -10377,7 +10381,8 @@
     "Certificate IDs": [
       "cisco-certified-specialist-data-center-ai-infrastructure"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Networking & RDMA Fabrics"
   },
   {
     "ID": "345",
@@ -10410,7 +10415,8 @@
     "Certificate IDs": [
       "cisco-certified-specialist-data-center-ai-infrastructure"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Servers, GPUs & Accelerators"
   },
   {
     "ID": "346",
@@ -10443,7 +10449,8 @@
     "Certificate IDs": [
       "nutanix-certified-professional-artificial-intelligence-6-10"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI Servers, GPUs & Accelerators"
   },
   {
     "ID": "347",
@@ -10475,7 +10482,8 @@
     "Certificate IDs": [
       "dell-genai-foundations"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Everyone Uses AI"
   },
   {
     "ID": "348",
@@ -10507,7 +10515,8 @@
     "Certificate IDs": [
       "dell-genai-foundations"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Everyone Uses AI"
   },
   {
     "ID": "349",
@@ -10539,7 +10548,8 @@
     "Certificate IDs": [
       "dell-genai-foundations"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Everyone Uses AI"
   },
   {
     "ID": "350",
@@ -10571,7 +10581,8 @@
     "Certificate IDs": [
       "dell-prompt-engineering"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Prompting & Structured Interaction"
   },
   {
     "ID": "351",
@@ -10604,7 +10615,8 @@
     "Certificate IDs": [
       "dell-agentic-ai-foundations"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "Agentic Workflows & Multi-Agent Systems"
   },
   {
     "ID": "352",
@@ -10636,6 +10648,7 @@
     "Certificate IDs": [
       "dell-ai-security"
     ],
-    "Course Completion Certificate Status": "unknown"
+    "Course Completion Certificate Status": "unknown",
+    "Capability": "AI, Agent & Model Security"
   }
 ]

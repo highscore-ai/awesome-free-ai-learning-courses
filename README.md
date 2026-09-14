@@ -5,7 +5,7 @@ Awesome free HighScore AI learning resources for artificial intelligence, machin
 
 Courses with an official certificate pathway are free preparation resources; certification exams, registrations, and credentials may have separate fees or requirements.
 
-**313 course records** from vendors, established education providers, and universities.
+**326 course records** from vendors, established education providers, and universities.
 
 > This README is generated from [data/resources.json](data/resources.json).
 
@@ -15,8 +15,8 @@ Courses with an official certificate pathway are free preparation resources; cer
 
 ## Contents
 
-**[Vendors (271)](#vendors)**
-[Microsoft (66)](#vendors-microsoft) · [NVIDIA (45)](#vendors-nvidia) · [Anthropic (29)](#vendors-anthropic) · [Google (18)](#vendors-google) · [Hugging Face (13)](#vendors-hugging-face) · [Databricks (9)](#vendors-databricks) · [LangChain (9)](#vendors-langchain) · [AWS (8)](#vendors-aws) · [OpenAI (8)](#vendors-openai) · [AMD (4)](#vendors-amd) · [IBM (4)](#vendors-ibm) · [LlamaIndex (4)](#vendors-llamaindex) · [Meta (4)](#vendors-meta) · [crewAI (3)](#vendors-crewai) · [Snowflake (3)](#vendors-snowflake) · [Flower Labs (2)](#vendors-flower-labs) · [Neo4j (2)](#vendors-neo4j) · [NexusFlow (2)](#vendors-nexusflow) · [Predibase (2)](#vendors-predibase) · [Qdrant (2)](#vendors-qdrant) · [AGI Inc (1)](#vendors-agi-inc) · [AI Dungeon (1)](#vendors-ai-dungeon) · [AI21 Labs (1)](#vendors-ai21-labs) · [Arize AI (1)](#vendors-arize-ai) · [Astronomer (1)](#vendors-astronomer) · [Box (1)](#vendors-box) · [Chroma (1)](#vendors-chroma) · [CircleCI (1)](#vendors-circleci) · [Cohere (1)](#vendors-cohere) · [Comet (1)](#vendors-comet) · [CopilotKit (1)](#vendors-copilotkit) · [DotTxt (1)](#vendors-dottxt) · [E2B (1)](#vendors-e2b) · [Gemini CLI (1)](#vendors-gemini-cli) · [Giskard (1)](#vendors-giskard) · [GuardrailsAI (1)](#vendors-guardrailsai) · [Haystack (1)](#vendors-haystack) · [IBM Research (1)](#vendors-ibm-research) · [JetBrains (1)](#vendors-jetbrains) · [LandingAI (1)](#vendors-landingai) · [Letta (1)](#vendors-letta) · [LiveKit (1)](#vendors-livekit) · [LMSys (1)](#vendors-lmsys) · [Mistral AI (1)](#vendors-mistral-ai) · [MongoDB (1)](#vendors-mongodb) · [Oracle (1)](#vendors-oracle) · [PayPal (1)](#vendors-paypal) · [Pinecone (1)](#vendors-pinecone) · [Qualcomm (1)](#vendors-qualcomm) · [RadixArk (1)](#vendors-radixark) · [RealAvatar (1)](#vendors-realavatar) · [Red Hat (1)](#vendors-red-hat) · [Redis (1)](#vendors-redis) · [Replit (1)](#vendors-replit) · [SAP (1)](#vendors-sap) · [Tavily (1)](#vendors-tavily) · [Together AI (1)](#vendors-together-ai) · [TruEra (1)](#vendors-truera) · [Unstructured (1)](#vendors-unstructured) · [Upstage (1)](#vendors-upstage) · [Vectara (1)](#vendors-vectara) · [Weaviate (1)](#vendors-weaviate) · [Weights & Biases (1)](#vendors-weights-and-biases) · [Windsurf (1)](#vendors-windsurf)
+**[Vendors (284)](#vendors)**
+[Microsoft (66)](#vendors-microsoft) · [NVIDIA (45)](#vendors-nvidia) · [Anthropic (29)](#vendors-anthropic) · [Google (18)](#vendors-google) · [Hugging Face (13)](#vendors-hugging-face) · [Databricks (9)](#vendors-databricks) · [LangChain (9)](#vendors-langchain) · [AWS (8)](#vendors-aws) · [OpenAI (8)](#vendors-openai) · [Dell Technologies (6)](#vendors-dell-technologies) · [AMD (4)](#vendors-amd) · [IBM (4)](#vendors-ibm) · [LlamaIndex (4)](#vendors-llamaindex) · [Meta (4)](#vendors-meta) · [Cisco (3)](#vendors-cisco) · [crewAI (3)](#vendors-crewai) · [HPE (3)](#vendors-hpe) · [Snowflake (3)](#vendors-snowflake) · [Flower Labs (2)](#vendors-flower-labs) · [Neo4j (2)](#vendors-neo4j) · [NexusFlow (2)](#vendors-nexusflow) · [Predibase (2)](#vendors-predibase) · [Qdrant (2)](#vendors-qdrant) · [AGI Inc (1)](#vendors-agi-inc) · [AI Dungeon (1)](#vendors-ai-dungeon) · [AI21 Labs (1)](#vendors-ai21-labs) · [Arize AI (1)](#vendors-arize-ai) · [Astronomer (1)](#vendors-astronomer) · [Box (1)](#vendors-box) · [Chroma (1)](#vendors-chroma) · [CircleCI (1)](#vendors-circleci) · [Cohere (1)](#vendors-cohere) · [Comet (1)](#vendors-comet) · [CopilotKit (1)](#vendors-copilotkit) · [DotTxt (1)](#vendors-dottxt) · [E2B (1)](#vendors-e2b) · [Gemini CLI (1)](#vendors-gemini-cli) · [Giskard (1)](#vendors-giskard) · [GuardrailsAI (1)](#vendors-guardrailsai) · [Haystack (1)](#vendors-haystack) · [IBM Research (1)](#vendors-ibm-research) · [JetBrains (1)](#vendors-jetbrains) · [LandingAI (1)](#vendors-landingai) · [Letta (1)](#vendors-letta) · [LiveKit (1)](#vendors-livekit) · [LMSys (1)](#vendors-lmsys) · [Mistral AI (1)](#vendors-mistral-ai) · [MongoDB (1)](#vendors-mongodb) · [Nutanix (1)](#vendors-nutanix) · [Oracle (1)](#vendors-oracle) · [PayPal (1)](#vendors-paypal) · [Pinecone (1)](#vendors-pinecone) · [Qualcomm (1)](#vendors-qualcomm) · [RadixArk (1)](#vendors-radixark) · [RealAvatar (1)](#vendors-realavatar) · [Red Hat (1)](#vendors-red-hat) · [Redis (1)](#vendors-redis) · [Replit (1)](#vendors-replit) · [SAP (1)](#vendors-sap) · [Tavily (1)](#vendors-tavily) · [Together AI (1)](#vendors-together-ai) · [TruEra (1)](#vendors-truera) · [Unstructured (1)](#vendors-unstructured) · [Upstage (1)](#vendors-upstage) · [Vectara (1)](#vendors-vectara) · [Weaviate (1)](#vendors-weaviate) · [Weights & Biases (1)](#vendors-weights-and-biases) · [Windsurf (1)](#vendors-windsurf)
 
 **[Education (139)](#education)**
 [DeepLearning.AI (124)](#education-deeplearning-ai) · [Kaggle (7)](#education-kaggle) · [DataTalks.Club (2)](#education-datatalks-club) · [American Federation of Teachers (1)](#education-american-federation-of-teachers) · [CodePath (1)](#education-codepath) · [fast.ai (1)](#education-fast-ai) · [Full Stack Deep Learning (1)](#education-full-stack-deep-learning) · [GivingTuesday (1)](#education-givingtuesday) · [Project Jupyter (1)](#education-project-jupyter) · [Teach For America (1)](#education-teach-for-america)
@@ -289,6 +289,18 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Reasoning with o1](https://www.deeplearning.ai/courses/reasoning-with-o1) | DeepLearning.AI | Beginner | Unknown | 2024-12 | Prompting & Structured Interaction | — |
 | [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/) | OpenAI | Intermediate | Unknown | 2018-11 | Machine Learning & Mathematical Foundations | — |
 
+<a id="vendors-dell-technologies"></a>
+### Dell Technologies
+
+| Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
+|---|---|---|---|---|---|---|
+| [Agentic AI in Context](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESDTFD08319) | Dell Technologies | Foundational | Approximately 4 hours | Not specified | Agentic Workflows & Multi-Agent Systems | [Agentic AI Foundations](https://learning.dell.com/content/dell/en-us/home/certification-overview/certificationandbadges/agentic-ai-foundations-achievement.html) |
+| [Building the Generative AI Ecosystem](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESOCMD02262) | Dell Technologies | Foundational | On-demand; duration not stated in canonical Notion map | Not specified | Everyone Uses AI | [GenAI Foundations](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams.html?exam=D-GAI-F-01) |
+| [Dell AI Security Foundations Proven Professional Certification Exam Prep Session](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESDTFD08788) | Dell Technologies | Foundational | On-demand; duration not stated in canonical Notion map | Not specified | AI, Agent & Model Security | [AI Security](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams.html?exam=D-AIS-F-A-00) |
+| [Introduction to Prompt Engineering](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESDTFD07922) | Dell Technologies | Foundational | On-demand; duration not stated in canonical Notion map | Not specified | Prompting & Structured Interaction | [Prompt Engineering](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams.html?exam=D-PEN-F-A-00) |
+| [Large Language Models Concepts](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESDTFD05883) | Dell Technologies | Foundational | On-demand; duration not stated in canonical Notion map | Not specified | Everyone Uses AI | [GenAI Foundations](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams.html?exam=D-GAI-F-01) |
+| [Understanding Generative AI](https://learning.dell.com/content/dell/en-us/home/store/search/course-details.html?courseID=ESOCMD02346) | Dell Technologies | Foundational | On-demand; duration not stated in canonical Notion map | Not specified | Everyone Uses AI | [GenAI Foundations](https://learning.dell.com/content/dell/en-us/home/certification-overview/available-exams.html?exam=D-GAI-F-01) |
+
 <a id="vendors-amd"></a>
 ### AMD
 
@@ -329,6 +341,15 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Introducing Multimodal Llama 3.2](https://www.deeplearning.ai/courses/introducing-multimodal-llama-3-2) | DeepLearning.AI | Beginner | Unknown | 2024-10 | Multimodal & Human-Agent Interaction | — |
 | [Prompt Engineering with Llama 2&3](https://www.deeplearning.ai/courses/prompt-engineering-with-llama-2) | DeepLearning.AI | Beginner | Unknown | 2024-03 | Prompting & Structured Interaction | — |
 
+<a id="vendors-cisco"></a>
+### Cisco
+
+| Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
+|---|---|---|---|---|---|---|
+| [AI Solutions on Cisco Infrastructure Essentials (DCAIE)](https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/dcaie.html) | Cisco | Specialist | Self-paced; duration not stated in canonical Notion map | Not specified | AI Networking & RDMA Fabrics | [Cisco Certified Specialist - Data Center AI Infrastructure](https://www.cisco.com/site/us/en/learn/training-certifications/exams/dcai.html) |
+| [Cisco AI Technical Practitioner](https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/aitech.html) | Cisco | Practitioner | Self-paced; duration not stated in canonical Notion map | Not specified | AI Application Architecture & Integration | [Cisco AI Technical Practitioner](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/ai/technical-practitioner/exam.html) |
+| [Operate and Troubleshoot AI Solutions on Cisco Infrastructure (DCAIAOT)](https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/dcaiaot.html) | Cisco | Specialist | Self-paced; duration not stated in canonical Notion map | Not specified | AI Servers, GPUs & Accelerators | [Cisco Certified Specialist - Data Center AI Infrastructure](https://www.cisco.com/site/us/en/learn/training-certifications/exams/dcai.html) |
+
 <a id="vendors-crewai"></a>
 ### crewAI
 
@@ -337,6 +358,15 @@ Courses with an official certificate pathway are free preparation resources; cer
 | [Design, Develop, and Deploy Multi-Agent Systems with CrewAI](https://www.deeplearning.ai/courses/design-develop-and-deploy-multi-agent-systems-with-crewai) | DeepLearning.AI | Intermediate | Unknown | 2025-11 | Agentic Workflows & Multi-Agent Systems | [Design, Develop, and Deploy Multi-Agent Systems with CrewAI](https://www.deeplearning.ai/courses/design-develop-and-deploy-multi-agent-systems-with-crewai) |
 | [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai) | DeepLearning.AI | Beginner | 3h1m | 2024 | Agentic Workflows & Multi-Agent Systems | — |
 | [Practical Multi AI Agents and Advanced Use Cases with crewAI](https://www.deeplearning.ai/courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai) | DeepLearning.AI | Intermediate | Unknown | 2025-01 | Agentic Workflows & Multi-Agent Systems | — |
+
+<a id="vendors-hpe"></a>
+### HPE
+
+| Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
+|---|---|---|---|---|---|---|
+| [HPE AI Fundamentals, Rev. 26.11](https://certification-learning.hpe.com/tr/datasheet/course/0001215551?version=1) | HPE | Associate | 4 days | Rev. 26.11 | AI Servers, GPUs & Accelerators | [HPE ATP - AI solutions](https://certification-learning.hpe.com/tr/datacard/certification/ATP-AIsol) |
+| [HPE AI Solutions, Rev. 26.11](https://certification-learning.hpe.com/tr/datasheet/course/0001215557) | HPE | Professional | 5 days | Rev. 26.11 | AI Servers, GPUs & Accelerators | [HPE ASE - AI solutions](https://certification-learning.hpe.com/tr/datacard/certification/ASE-AIsol) |
+| [HPE Private Cloud AI Solutions, Rev. 25.41](https://certification-learning.hpe.com/tr/datasheet/course/0001211723) | HPE | Not specified | Approximately 1 day | Rev. 25.41 | Enterprise AI Architecture & Operating Model | [HPE Solution Certified - Private Cloud AI](https://certification-learning.hpe.com/tr/datacard/certification/SC-PCAI) |
 
 <a id="vendors-snowflake"></a>
 ### Snowflake
@@ -561,6 +591,13 @@ Courses with an official certificate pathway are free preparation resources; cer
 | Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
 |---|---|---|---|---|---|---|
 | [Prompt Compression and Query Optimization](https://www.deeplearning.ai/courses/prompt-compression-and-query-optimization) | DeepLearning.AI | Intermediate | Unknown | 2024-07 | Context, Memory & State | — |
+
+<a id="vendors-nutanix"></a>
+### Nutanix
+
+| Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
+|---|---|---|---|---|---|---|
+| [Nutanix Enterprise AI Administration (NAIA)](https://www.nutanix.com/support-services/training-certification/training/course-details-nutanix-enterprise-artificial-intelligence-administration) | Nutanix | Professional | Approximately 12 hours | Not specified | AI Servers, GPUs & Accelerators | [Nutanix Certified Professional - Artificial Intelligence (NCP-AI) 6.10](https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-professional-artificial-intelligence) |
 
 <a id="vendors-oracle"></a>
 ### Oracle
