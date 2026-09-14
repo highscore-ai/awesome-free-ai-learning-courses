@@ -1,0 +1,122 @@
+name: Sync canonical Asukaz partner data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sync-canonical-partner-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  merge-validate-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Merge canonical data and validate full public catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          data_dir = Path('data')
+          resources_path = data_dir / 'resources.json'
+          certificates_path = data_dir / 'certificates.json'
+          partner_courses_path = data_dir / '.sync' / 'partner-course-additions.json'
+          partner_certificates_path = data_dir / '.sync' / 'partner-certificate-additions.json'
+
+          resources = json.loads(resources_path.read_text(encoding='utf-8'))
+          certificates = json.loads(certificates_path.read_text(encoding='utf-8'))
+          partner_courses = json.loads(partner_courses_path.read_text(encoding='utf-8'))
+          partner_certificates = json.loads(partner_certificates_path.read_text(encoding='utf-8'))
+
+          old_resource_count = len(resources)
+          old_certificate_count = len(certificates)
+
+          canonical_slug = 'deeplearning-ai-data-engineering'
+          canonical_matches = [r for r in resources if r.get('Slug') == canonical_slug]
+          if len(canonical_matches) != 1:
+              raise SystemExit(f'Expected exactly one {canonical_slug} record, found {len(canonical_matches)}')
+          canonical_matches[0]['ID'] = '353'
+
+          # Canonical certificate rows: replace by stable ID, otherwise append.
+          cert_index = {str(item.get('ID')): i for i, item in enumerate(certificates)}
+          for item in partner_certificates:
+              key = str(item.get('ID'))
+              if key in cert_index:
+                  certificates[cert_index[key]] = item
+              else:
+                  cert_index[key] = len(certificates)
+                  certificates.append(item)
+
+          # Canonical course rows: replace by slug, otherwise append. Reject ID reuse by another slug.
+          course_by_slug = {item.get('Slug'): i for i, item in enumerate(resources) if item.get('Slug')}
+          for item in partner_courses:
+              cid = str(item.get('ID'))
+              slug = item.get('Slug')
+              conflicts = [r for r in resources if str(r.get('ID')) == cid and r.get('Slug') != slug]
+              if conflicts:
+                  raise SystemExit(f'Canonical course ID {cid} conflicts with existing slug(s): {[r.get("Slug") for r in conflicts]}')
+              if slug in course_by_slug:
+                  resources[course_by_slug[slug]] = item
+              else:
+                  course_by_slug[slug] = len(resources)
+                  resources.append(item)
+
+          course_ids = [str(item.get('ID')) for item in resources]
+          course_slugs = [item.get('Slug') for item in resources if item.get('Slug')]
+          cert_ids = [str(item.get('ID')) for item in certificates]
+
+          duplicate_course_ids = sorted(k for k, v in Counter(course_ids).items() if v > 1)
+          duplicate_course_slugs = sorted(k for k, v in Counter(course_slugs).items() if v > 1)
+          duplicate_cert_ids = sorted(k for k, v in Counter(cert_ids).items() if v > 1)
+          if duplicate_course_ids:
+              raise SystemExit(f'Duplicate course IDs: {duplicate_course_ids}')
+          if duplicate_course_slugs:
+              raise SystemExit(f'Duplicate course slugs: {duplicate_course_slugs}')
+          if duplicate_cert_ids:
+              raise SystemExit(f'Duplicate certificate IDs: {duplicate_cert_ids}')
+          if course_ids.count('270') != 1:
+              raise SystemExit(f'Expected exactly one public course ID 270, found {course_ids.count("270")}')
+          if course_ids.count('353') != 1:
+              raise SystemExit(f'Expected exactly one public course ID 353, found {course_ids.count("353")}')
+
+          known_cert_ids = set(cert_ids)
+          missing_refs = []
+          for course in resources:
+              for cert_id in course.get('Certificate IDs', []) or []:
+                  if str(cert_id) not in known_cert_ids:
+                      missing_refs.append((course.get('Slug'), str(cert_id)))
+          if missing_refs:
+              preview = missing_refs[:20]
+              raise SystemExit(f'Invalid course→certificate references ({len(missing_refs)}): {preview}')
+
+          partner_course_slugs = {c['Slug'] for c in partner_courses}
+          partner_cert_ids = {c['ID'] for c in partner_certificates}
+          if not partner_course_slugs.issubset(set(course_slugs)):
+              raise SystemExit('Not all canonical partner courses were published')
+          if not partner_cert_ids.issubset(known_cert_ids):
+              raise SystemExit('Not all canonical partner certificates were published')
+
+          resources_path.write_text(json.dumps(resources, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          certificates_path.write_text(json.dumps(certificates, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          print(f'Resources: {old_resource_count} -> {len(resources)}')
+          print(f'Certificates: {old_certificate_count} -> {len(certificates)}')
+          print(f'Validated {len(resources)} resources, {len(certificates)} certificates; IDs/slugs/references are valid.')
+          PY
+      - name: Commit validated public catalog
+        shell: bash
+        run: |
+          git config user.name "HighScore Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/resources.json data/certificates.json
+          git rm -f data/.sync/partner-course-additions.json data/.sync/partner-certificate-additions.json
+          git commit -m "sync: publish canonical partner AI credentials"
+          git push origin HEAD:main
