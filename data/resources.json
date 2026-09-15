@@ -836,7 +836,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "kaggle-intro-to-machine-learning-certificate"
+    ],
     "Capability": "Machine Learning & Mathematical Foundations"
   },
   {
@@ -866,7 +868,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "kaggle-intermediate-machine-learning-certificate"
+    ],
     "Capability": "Machine Learning & Mathematical Foundations"
   },
   {
@@ -896,7 +900,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "kaggle-intro-to-deep-learning-certificate"
+    ],
     "Capability": "Deep Learning"
   },
   {
@@ -926,7 +932,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "kaggle-computer-vision-certificate"
+    ],
     "Capability": "Multimodal & Human-Agent Interaction"
   },
   {
@@ -956,7 +964,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "kaggle-intro-to-ai-ethics-certificate"
+    ],
     "Capability": "Responsible AI, Safety & Guardrails"
   },
   {
@@ -5766,7 +5776,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "datatalksclub-machine-learning-zoomcamp-certificate"
+    ],
     "Capability": "Machine Learning & Mathematical Foundations"
   },
   {
@@ -5796,7 +5808,9 @@
     "Categories": [
       "Established Educational Providers"
     ],
-    "Certificate IDs": [],
+    "Certificate IDs": [
+      "datatalksclub-ai-dev-tools-zoomcamp-certificate"
+    ],
     "Capability": "AI Coding & Software Engineering"
   },
   {

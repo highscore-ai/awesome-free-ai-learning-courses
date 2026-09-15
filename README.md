@@ -876,19 +876,19 @@ Courses with an official certificate pathway are free preparation resources; cer
 |---|---|---|---|---|---|---|
 | [5-Day AI Agents: Intensive Vibe Coding Course With Google](https://www.kaggle.com/learn-guide/5-day-agents-vibecoding) | Kaggle | Intermediate | 5 days; self-paced | 2026-06 | Agentic Workflows & Multi-Agent Systems | — |
 | [5-Day Gen AI Intensive Course with Google](https://www.kaggle.com/learn-guide/5-day-genai) | Kaggle | Intermediate | 5 days; self-paced | 2025-03 | Model Architectures & Generative Models | — |
-| [Computer Vision](https://www.kaggle.com/learn/computer-vision) | Kaggle | Intermediate | 4 hours | 2019-11 | Multimodal & Human-Agent Interaction | — |
-| [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) | Kaggle | Intermediate | 4 hours | 2019-01 | Machine Learning & Mathematical Foundations | — |
-| [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) | Kaggle | Beginner | 4 hours | 2020-03 | Responsible AI, Safety & Guardrails | — |
-| [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | Kaggle | Beginner | Approx. 4 hours | 2019-09 | Deep Learning | — |
-| [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Kaggle | Beginner | Approx. 3 hours | 2018-03 | Machine Learning & Mathematical Foundations | — |
+| [Computer Vision](https://www.kaggle.com/learn/computer-vision) | Kaggle | Intermediate | 4 hours | 2019-11 | Multimodal & Human-Agent Interaction | [Computer Vision Certificate](https://www.kaggle.com/learn/computer-vision) |
+| [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) | Kaggle | Intermediate | 4 hours | 2019-01 | Machine Learning & Mathematical Foundations | [Intermediate Machine Learning Certificate](https://www.kaggle.com/learn/intermediate-machine-learning) |
+| [Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) | Kaggle | Beginner | 4 hours | 2020-03 | Responsible AI, Safety & Guardrails | [Intro to AI Ethics Certificate](https://www.kaggle.com/learn/intro-to-ai-ethics) |
+| [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) | Kaggle | Beginner | Approx. 4 hours | 2019-09 | Deep Learning | [Intro to Deep Learning Certificate](https://www.kaggle.com/learn/intro-to-deep-learning) |
+| [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Kaggle | Beginner | Approx. 3 hours | 2018-03 | Machine Learning & Mathematical Foundations | [Intro to Machine Learning Certificate](https://www.kaggle.com/learn/intro-to-machine-learning) |
 
 <a id="education-datatalks-club"></a>
 ### <img src="assets/provider-logos/datatalks-club.png" alt="DataTalks.Club logo" width="28" height="28"> DataTalks.Club
 
 | Resource | Source provider | Level | Duration | Release / Update | Focus | Official certificate pathways |
 |---|---|---|---|---|---|---|
-| [AI Dev Tools Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43) | DataTalks.Club | Intermediate | 6 modules plus final project; self-paced | 2026-08 | AI Coding & Software Engineering | — |
-| [Machine Learning Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR) | DataTalks.Club | Intermediate | 19 weeks; self-paced option available | 2026-09 | Machine Learning & Mathematical Foundations | — |
+| [AI Dev Tools Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43) | DataTalks.Club | Intermediate | 6 modules plus final project; self-paced | 2026-08 | AI Coding & Software Engineering | [AI Dev Tools Zoomcamp Certificate](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/) |
+| [Machine Learning Zoomcamp](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR) | DataTalks.Club | Intermediate | 19 weeks; self-paced option available | 2026-09 | Machine Learning & Mathematical Foundations | [Machine Learning Zoomcamp Certificate](https://datatalks.club/blog/machine-learning-zoomcamp.html) |
 
 <a id="education-american-federation-of-teachers"></a>
 ### American Federation of Teachers
