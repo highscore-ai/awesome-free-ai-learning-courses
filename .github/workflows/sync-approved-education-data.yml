@@ -1,0 +1,81 @@
+name: Sync approved canonical education data
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-approved-education-data.yml'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Merge canonical payload and validate
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const resourcesPath='data/resources.json';
+          const certificatesPath='data/certificates.json';
+          const resources=JSON.parse(fs.readFileSync(resourcesPath,'utf8'));
+          const certificates=JSON.parse(fs.readFileSync(certificatesPath,'utf8'));
+          const incomingResources=JSON.parse(fs.readFileSync('.sync-export/education-resources.json','utf8'));
+          const incomingCertificates=JSON.parse(fs.readFileSync('.sync-export/education-certificates.json','utf8'));
+
+          const capabilityById=new Map();
+          for (const r of resources) {
+            if (r['Capability ID'] && r.Capability && !capabilityById.has(r['Capability ID'])) capabilityById.set(r['Capability ID'], r.Capability);
+          }
+
+          const resourceBySlug=new Map(resources.map((r,i)=>[r.Slug,{r,i}]));
+          const resourceById=new Map(resources.map((r,i)=>[String(r.ID),{r,i}]));
+          for (const incoming of incomingResources) {
+            const id=String(incoming.ID);
+            const bySlug=resourceBySlug.get(incoming.Slug);
+            const byId=resourceById.get(id);
+            if (bySlug && String(bySlug.r.ID)!==id) throw new Error(`Stable ID conflict for slug ${incoming.Slug}: public=${bySlug.r.ID}, canonical=${id}`);
+            if (byId && byId.r.Slug!==incoming.Slug) throw new Error(`Stable ID ${id} belongs to ${byId.r.Slug}, not canonical ${incoming.Slug}`);
+            const capability=capabilityById.get(incoming['Capability ID']);
+            if (!capability) throw new Error(`No public Capability label for canonical Capability ID ${incoming['Capability ID']} (${incoming.Slug})`);
+            const projected={...incoming, Capability:capability};
+            if (bySlug) resources[bySlug.i]=projected;
+            else resources.push(projected);
+          }
+
+          const certIndex=new Map(certificates.map((c,i)=>[c.ID,i]));
+          for (const incoming of incomingCertificates) {
+            if (!incoming.ID) throw new Error('Incoming certificate missing ID');
+            if (certIndex.has(incoming.ID)) certificates[certIndex.get(incoming.ID)]=incoming;
+            else { certIndex.set(incoming.ID, certificates.length); certificates.push(incoming); }
+          }
+
+          const assertUnique=(items,field,label)=>{
+            const seen=new Set();
+            for(const item of items){const value=String(item[field]??''); if(!value||seen.has(value)) throw new Error(`${label} missing/duplicate ${field}: ${value}`); seen.add(value);}
+          };
+          assertUnique(resources,'ID','resources');
+          assertUnique(resources,'Slug','resources');
+          assertUnique(certificates,'ID','certificates');
+          const certIds=new Set(certificates.map(c=>c.ID));
+          for(const r of resources){
+            if(!r['Capability ID']||!r.Capability) throw new Error(`Missing capability projection: ${r.Slug}`);
+            if(!Array.isArray(r['Certificate IDs'])) throw new Error(`Certificate IDs is not array: ${r.Slug}`);
+            for(const id of r['Certificate IDs']) if(!certIds.has(id)) throw new Error(`Unknown certificate ${id} referenced by ${r.Slug}`);
+          }
+          fs.writeFileSync(resourcesPath,JSON.stringify(resources,null,2)+'\n');
+          fs.writeFileSync(certificatesPath,JSON.stringify(certificates,null,2)+'\n');
+          console.log(`Merged ${incomingResources.length} resources and ${incomingCertificates.length} certificates`);
+          NODE
+          npm run generate
+          npm run check
+      - name: Commit direct to main
+        run: |
+          git config user.name 'HighScore Sync'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/resources.json data/certificates.json README.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'sync: publish approved education certificates'
+          git push
