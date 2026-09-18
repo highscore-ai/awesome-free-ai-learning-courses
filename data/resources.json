@@ -6603,10 +6603,7 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [
-      "nvidia-ncp-generative-ai-llm",
-      "nvidia-ncp-agentic-ai"
-    ],
+    "Certificate IDs": [],
     "Capability": "RAG, Embeddings & Knowledge Systems"
   },
   {
@@ -6619,7 +6616,7 @@
     "Official URL": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1",
     "Primary Category": "Official Vendors",
     "Additional Categories": [],
-    "Capability ID": "5.6",
+    "Capability ID": "3.4",
     "Secondary Tags": [
       "NVIDIA certification preparation",
       "Self-paced"
@@ -6638,7 +6635,7 @@
     "Certificate IDs": [
       "nvidia-ncp-agentic-ai"
     ],
-    "Capability": "Evaluation, Reliability & Assurance"
+    "Capability": "Model Evaluation & Quality"
   },
   {
     "ID": "230",
@@ -6697,9 +6694,7 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [
-      "nvidia-ncp-agentic-ai"
-    ],
+    "Certificate IDs": [],
     "Capability": "Agentic Workflows & Multi-Agent Systems"
   },
   {
@@ -6712,7 +6707,7 @@
     "Official URL": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-26+V1",
     "Primary Category": "Official Vendors",
     "Additional Categories": [],
-    "Capability ID": "2.7",
+    "Capability ID": "3.3",
     "Secondary Tags": [
       "NVIDIA certification preparation",
       "Instructor-led / workshop"
@@ -6732,7 +6727,7 @@
       "nvidia-ncp-generative-ai-llm",
       "nvidia-ncp-agentic-ai"
     ],
-    "Capability": "RAG, Embeddings & Knowledge Systems"
+    "Capability": "Fine-Tuning, Alignment & Post-Training"
   },
   {
     "ID": "233",
@@ -6744,7 +6739,7 @@
     "Official URL": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1",
     "Primary Category": "Official Vendors",
     "Additional Categories": [],
-    "Capability ID": "3.6",
+    "Capability ID": "3.5",
     "Secondary Tags": [
       "NVIDIA certification preparation",
       "Self-paced"
@@ -6763,7 +6758,7 @@
     "Certificate IDs": [
       "nvidia-ncp-agentic-ai"
     ],
-    "Capability": "MLOps & Model Lifecycle Management"
+    "Capability": "Model Serving & Inference Optimization"
   },
   {
     "ID": "234",
@@ -6775,7 +6770,7 @@
     "Official URL": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-18+V1",
     "Primary Category": "Official Vendors",
     "Additional Categories": [],
-    "Capability ID": "3.6",
+    "Capability ID": "3.5",
     "Secondary Tags": [
       "NVIDIA certification preparation",
       "Instructor-led / workshop"
@@ -6792,10 +6787,9 @@
       "Official Vendors"
     ],
     "Certificate IDs": [
-      "nvidia-ncp-generative-ai-llm",
-      "nvidia-ncp-agentic-ai"
+      "nvidia-ncp-generative-ai-llm"
     ],
-    "Capability": "MLOps & Model Lifecycle Management"
+    "Capability": "Model Serving & Inference Optimization"
   },
   {
     "ID": "235",
@@ -7276,7 +7270,7 @@
     "Official URL": "https://www.nvidia.com/en-us/training/instructor-led-workshops/model-parallelism-build-deploy-large-neural-networks",
     "Primary Category": "Official Vendors",
     "Additional Categories": [],
-    "Capability ID": "3.9",
+    "Capability ID": "3.2",
     "Secondary Tags": [
       "NVIDIA certification preparation",
       "Instructor-led / workshop"
@@ -7295,7 +7289,7 @@
     "Certificate IDs": [
       "nvidia-ncp-generative-ai-llm"
     ],
-    "Capability": "Deep Learning"
+    "Capability": "Pre-Training & Distributed Training"
   },
   {
     "ID": "251",
@@ -7323,9 +7317,7 @@
     "Categories": [
       "Official Vendors"
     ],
-    "Certificate IDs": [
-      "nvidia-ncp-generative-ai-llm"
-    ],
+    "Certificate IDs": [],
     "Capability": "MLOps & Model Lifecycle Management"
   },
   {
