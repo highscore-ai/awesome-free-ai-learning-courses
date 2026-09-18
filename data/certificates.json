@@ -88,28 +88,28 @@
     "Certificate Title": "NCP Generative AI Large Language Models",
     "Issuer": "NVIDIA",
     "Credential Type": "Professional Certification",
-    "Exam Code": "NCP",
+    "Exam Code": "NCP-GENL",
     "Level": "Professional",
     "Summary": "Coming soon in the canonical Notion map; preparation courses are already mapped.",
-    "Assessment": "Coming soon",
-    "Validity": "Not stated in canonical Notion map",
+    "Assessment": "Coming soon; online remotely proctored; 120 minutes; 60–70 questions; US$200",
+    "Validity": "2 years",
     "Preparation Access": "Mixed paid self-paced and instructor-led NVIDIA training",
     "Official URL": "https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-professional/",
-    "Last Verified Date": "2026-09-02"
+    "Last Verified Date": "2026-09-17"
   },
   {
     "ID": "nvidia-ncp-agentic-ai",
     "Certificate Title": "NCP Agentic AI",
     "Issuer": "NVIDIA",
     "Credential Type": "Professional Certification",
-    "Exam Code": "NCP",
+    "Exam Code": "NCP-AAI",
     "Level": "Professional",
     "Summary": "Coming soon in the canonical Notion map; preparation courses cover RAG, agentic applications, evaluation, and production deployment.",
-    "Assessment": "Coming soon",
-    "Validity": "Not stated in canonical Notion map",
+    "Assessment": "Coming soon; online remotely proctored; 120 minutes; 60–70 questions; US$200",
+    "Validity": "2 years",
     "Preparation Access": "Mixed paid self-paced and instructor-led NVIDIA training",
     "Official URL": "https://www.nvidia.com/en-us/learn/certification/agentic-ai-professional/",
-    "Last Verified Date": "2026-09-02"
+    "Last Verified Date": "2026-09-17"
   },
   {
     "ID": "nvidia-nca-ai-infrastructure-operations",
